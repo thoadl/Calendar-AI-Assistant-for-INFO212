@@ -1,0 +1,2863 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "\"3291244168578000\"",
+    "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g84o46e1l84s34gi368s48e1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g64skce1p6d230hi68l2jgd9k7513cdi48h134ea56t13eghi7530",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4NG80NmUxbDg0czM0Z2kzNjhzNDhlMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNjRza2NlMXA2ZDIzMGhpNjhsMmpnZDlrNzUxM2NkaTQ4aDEzNGVhNTZ0MTNlZ2hpNzUzMCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2022-02-23T12:53:50.000Z",
+    "updated": "2022-02-23T13:14:44.289Z",
+    "summary": "Interjvu Adecco - Thomas Ådlandsvik",
+    "description": "Hei,\n\nVelkommen til intervju hos Adecco på Teams i morgen kl 13:00\n\nFør intervjuet ønsker jeg at du gjør følgende:\n\n  1.  Last opp alle dine attester og vitnemål under «documents» på din profil på adecco.no\n  2.  Ha klar to referanser vi kan kontakte (min. 1 må være overordnet og begge skal være profesjonelle)\n  3.  Ha klart ID med bilde (bankkort eller pass)\n\nJeg ser frem til å treffe deg!\n\nVennlig hilsen\n\nKatrine Grotle\nHR - Konsulent\n\nAdecco Norge\nFinance and Office Bergen\n\nFabrikkgaten 6, 5059 Bergen\nMobil +47 995 00 316\nTelefon +47 23 29 00 00\nkatrine.grotle@adecco.no<mailto:katrine.grotle@adecco.no>\nwww.adecco.no<https://eur02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.adecco.no%2F&data=04%7C01%7CKatrine.Grotle%40adecco.no%7C9426b62e694d46a260fe08d8f8f9ce5d%7Cf30ac191b8b445f29a9be5466cb90c2f%7C0%7C0%7C637533099234514588%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=X9uGVVcFv7aQrXs4%2Bbm3VPS4r4iO3rkhk6pd7R0PQJM%3D&reserved=0>\n\n\n[cid:image001.png@01D828BC.C8BECDA0]\n\nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. It may contain legally privileged information, and may not be disclosed to anyone else. If you have received this email in error, please notify the sender and delete all copies from your system. Any opinion expressed in this email may be personal to the author, and may not necessarily reflect the opinions of the Company or its affiliates\n\n\n\n________________________________________________________________________________\nMicrosoft Teams-møte\nBli med fra datamaskin eller mobilapp\nKlikk her for å delta i møtet<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4%40thread.v2/0?context=%7b%22Tid%22%3a%22f30ac191-b8b4-45f2-9a9b-e5466cb90c2f%22%2c%22Oid%22%3a%2222da23f8-1e87-4525-aace-b415e4751f4c%22%7d>\nBli med på en videokonferanseenhet\nadeccogroup@m.webex.com<mailto:adeccogroup@m.webex.com>\nVideokonferanse-ID: 128 858 950 9\nAlternative VTC-instruksjoner<https://www.webex.com/msteams?confid=1288589509&tenantkey=adeccogroup&domain=m.webex.com>\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Møtealternativer<https://teams.microsoft.com/meetingOptions/?organizerId=22da23f8-1e87-4525-aace-b415e4751f4c&tenantId=f30ac191-b8b4-45f2-9a9b-e5466cb90c2f&threadId=19_meeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4@thread.v2&messageId=0&language=nb-NO>\n________________________________________________________________________________\n\n",
+    "location": "Microsoft Teams-møte; ADE NO BER MTG RM ALREK 4P CAL, ADE NO BER MTG RM ALREK 4P CAL",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "katrine.grotle@adecco.no",
+      "displayName": "Katrine Grotle"
+    },
+    "start": {
+      "dateTime": "2022-02-24T13:00:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "end": {
+      "dateTime": "2022-02-24T13:45:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "iCalUID": "040000008200E00074C5B7101A82E00800000000A0C85A82BC28D80100000000000000001000000019F893D0FFEE8549B66DDB29E7B7B29F",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "self": true,
+        "responseStatus": "accepted"
+      },
+      {
+        "email": "adenobermtgrmalrek4pcal@adecco.no",
+        "displayName": "ADE NO BER MTG RM ALREK 4P CAL",
+        "resource": true,
+        "responseStatus": "needsAction"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "privateCopy": true,
+    "reminders": {
+      "useDefault": true
+    },
+    "attachments": [
+      {
+        "fileUrl": "https://mail.google.com/?view=att&th=17f26a538e0f2e53&attid=0.1&disp=attd&zw",
+        "title": "image001.png",
+        "iconLink": ""
+      }
+    ],
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3295719038850000\"",
+    "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g88o34d9h84skcg9n6d0k8e1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g74p48c1o8gsjaci170s3ie1k7113ch1j7524cha564s3ida68p10",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4OG8zNGQ5aDg0c2tjZzluNmQwazhlMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNzRwNDhjMW84Z3NqYWNpMTcwczNpZTFrNzExM2NoMWo3NTI0Y2hhNTY0czNpZGE2OHAxMCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2022-03-18T09:48:59.000Z",
+    "updated": "2022-03-21T10:45:19.425Z",
+    "summary": "Invitasjon til videointervju",
+    "description": "Hei Thomas,\n\nViser til hyggelig telefonsamtale, og bekrefter videointervju mandag 21. mars kl. 13:00\nHer vil du møte Monica Gudmundsen, direktør for kundesenteret i ACOS, og Hanne Therese Dahle, leder for supportsenteret.\n\nIntervjuet blir over Teams, og du kan benytte lenken under til å koble deg opp.\n\nIkke nøl med å ta kontakt om det er noe du lurer på før vårt møte.\nVi ser frem til å møte deg!\n\n\n\nMed vennlig hilsen\nVeronica Gjøvåg\n\nHR-konsulent\n\nveronica@acos.no<mailto:veronica@acos.no> | 92 66 29 12\n\n[cid:image001.png@01D83AB5.A79D8700]<http://acos.no/>\n\n\n\n ________________________________________________________________________________\nMicrosoft Teams-møte\nBli med fra datamaskin eller mobilapp\nKlikk her for å delta i møtet<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx%40thread.v2/0?context=%7b%22Tid%22%3a%22399ec9ae-8b70-40ac-a820-7339d9546e2c%22%2c%22Oid%22%3a%2272dea732-2548-4d36-a108-3ecc8323dda0%22%7d>\nBli med på en videokonferanseenhet\nteams@acos.no<mailto:teams@acos.no>\nVideokonferanse-ID: 127 899 675 5\nAlternative VTC-instruksjoner<https://pexip.me/teams/acos.no/1278996755>\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Møtealternativer<https://teams.microsoft.com/meetingOptions/?organizerId=72dea732-2548-4d36-a108-3ecc8323dda0&tenantId=399ec9ae-8b70-40ac-a820-7339d9546e2c&threadId=19_meeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx@thread.v2&messageId=0&language=nb-NO>\n________________________________________________________________________________\n\n",
+    "location": "Microsoft Teams-møte",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "veronica@acos.no",
+      "displayName": "Veronica Gjøvåg"
+    },
+    "start": {
+      "dateTime": "2022-03-21T13:00:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "end": {
+      "dateTime": "2022-03-21T13:20:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "iCalUID": "040000008200E00074C5B7101A82E00800000000B0251A9FA73AD80100000000000000001000000092D08D952A889848B6D39DFEE1895FFB",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "handa@acos.no",
+        "displayName": "Hanne Therese Dahle",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "monica@acos.no",
+        "displayName": "Monica Gudmundsen",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "privateCopy": true,
+    "reminders": {
+      "useDefault": true
+    },
+    "attachments": [
+      {
+        "fileUrl": "https://mail.google.com/?view=att&th=17f9c6e363aeb505&attid=0.1&disp=attd&zw",
+        "title": "image001.png",
+        "iconLink": ""
+      }
+    ],
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3330506263420000\"",
+    "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g60o46dq66gp3cgq46h248e1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g74qk8da38orj6h9k6gp42e9k6osk8ea368s3acpp6d0j4e1h710g",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2MG80NmRxNjZncDNjZ3E0NmgyNDhlMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNzRxazhkYTM4b3JqNmg5azZncDQyZTlrNm9zazhlYTM2OHMzYWNwcDZkMGo0ZTFoNzEwZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2022-04-11T15:56:11.000Z",
+    "updated": "2022-10-08T18:18:51.710Z",
+    "summary": "Invitasjon til intervju",
+    "description": "Hei.\n\nVi ønsker å bli enda bedre kjent med deg og ønsker å invitere deg til en prat i våre lokaler i Trollhaugmyra 15 på Straume<https://goo.gl/maps/JewEhz2wzrFN4NSV9> på torsdag 21. april kl. 12:00.\n\nDersom du ikke allerede har lastet opp vitnemål og attester setter vi pris på om du laster disse opp i Webcruiter i forkant slik at vi rekker å se over eventuelle papirer.\n\nVelkommen skal du være!\n\n\nMed vennlig hilsen \n\nMonica Gudmundsen\nDirektør Kundesenter\nmonica@acos.no<mailto:monica@acos.no> | 92 25 66 53\n\n[B70CB70B]\n\n",
+    "location": "Trollhaugmyra 15, 3. etg",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "monica@acos.no",
+      "displayName": "Monica Gudmundsen"
+    },
+    "start": {
+      "dateTime": "2022-04-21T12:00:00+02:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "end": {
+      "dateTime": "2022-04-21T13:00:00+02:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "iCalUID": "040000008200E00074C5B7101A82E0080000000000C7F426CD4DD80100000000000000001000000095D5CF73E442A9469D9C285393A2818A",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "handa@acos.no",
+        "displayName": "Hanne Therese Dahle",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "self": true,
+        "responseStatus": "needsAction"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "privateCopy": true,
+    "reminders": {
+      "useDefault": true
+    },
+    "attachments": [
+      {
+        "fileUrl": "https://mail.google.com/?view=att&th=180195706e936913&attid=0.1&disp=attd&zw",
+        "title": "image001.png",
+        "iconLink": ""
+      }
+    ],
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3351574670280000\"",
+    "id": "61hjcdpi64s62b9g6dj6ab9kc4sm2bb268o3cb9mcoo3cdr4ckp38dj664",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NjFoamNkcGk2NHM2MmI5ZzZkajZhYjlrYzRzbTJiYjI2OG8zY2I5bWNvbzNjZHI0Y2twMzhkajY2NCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2023-02-07T16:28:55.000Z",
+    "updated": "2023-02-07T16:28:55.140Z",
+    "summary": "hjem",
+    "description": "hjem",
+    "location": "60.29792275,5.32816326",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-02-07T17:28:00+01:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2023-02-07T17:29:00+01:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "61hjcdpi64s62b9g6dj6ab9kc4sm2bb268o3cb9mcoo3cdr4ckp38dj664@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3351580307012000\"",
+    "id": "6os6acb4c4qjabb66hj36b9k6gp3abb26ssmab9icoqj8dpn68sj4dpo70",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Nm9zNmFjYjRjNHFqYWJiNjZoajM2YjlrNmdwM2FiYjI2c3NtYWI5aWNvcWo4ZHBuNjhzajRkcG83MCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2023-02-07T17:15:53.000Z",
+    "updated": "2023-02-07T17:15:53.506Z",
+    "summary": "Heime",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-02-07T18:15:00+01:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2023-02-07T18:16:00+01:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "6os6acb4c4qjabb66hj36b9k6gp3abb26ssmab9icoqj8dpn68sj4dpo70@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3362763891390000\"",
+    "id": "7l39j982qqiu4md7e3kkuvqnur",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=N2wzOWo5ODJxcWl1NG1kN2Uza2t1dnFudXIgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2023-04-13T10:32:25.000Z",
+    "updated": "2023-04-13T10:32:25.695Z",
+    "summary": "3-4 personer (Heit Bergen Sauna 1)",
+    "description": "Marineholmen på sjøen\n\nView/Change Appointment:\nhttps://app.squarespacescheduling.com/schedule.php?owner=21781567&id%5B%5D=ca5081e96eb840e4110eb7a8b1e3e67c&action=appt\n\n(created by Squarespace Scheduling)\nAcuityID=1022177263\nGoogle",
+    "location": "Marineholmen på sjøen",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-04-16T13:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2023-04-16T13:50:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "7l39j982qqiu4md7e3kkuvqnur@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3419326974934000\"",
+    "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8go3eghp8523ed1n6p2k8g9g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8gs3icpo8d33icq46l13ch1k8gskacpo6ook4ghh892j6dpp6sqg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4Z28zZWdocDg1MjNlZDFuNnAyazhnOWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGdzM2ljcG84ZDMzaWNxNDZsMTNjaDFrOGdza2FjcG82b29rNGdoaDg5Mmo2ZHBwNnNxZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2024-03-05T13:15:07.000Z",
+    "updated": "2024-03-05T18:31:27.467Z",
+    "summary": "Førstegangsintervju; Thomas Ådlandsvik",
+    "description": "Hei!\n\n\n\nBekrefter med dette ditt førstegangsintervju til stillingen IT konsulent elektronisk sikring i Forsvarsbygg, onsdag 6. mars kl 13:15. I første runde setter vi av 30 minutter til intervjuet med fokus på motivasjon, arbeidserfaring og utdanning.\n\nLenke til Teams finner du nederst i denne mailen.\n\n\n\nVi ser frem til å bli bedre kjent med deg i intervjuet!\n\nMed vennlig hilsen\nMadelen Theres Bjørdal\nHR Rådgiver\nRessurssenteret\n\n[cid:image001.png@01DA6F06.92750380]\n\nMobil: +47 932 24 801\nE- post: madelen.theres.bjordal@forsvarsbygg.no<mailto:madelen.theres.bjordal@forsvarsbygg.no>\nInternett: www.forsvarsbygg.no<http://www.forsvarsbygg.no/>\n\nBesøksadresse: Grev Wedels Plass 5\nPostadresse: Postboks 405 Sentrum, 0103 Oslo\nSentralbord: 468 70 400\n\n________________________________________________________________________________\nMicrosoft Teams-møte\nBli med fra datamaskinen, mobilappen eller romenheten\nKlikk her for å bli med i møtet<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDFkMmU1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZDgxMDg5%40thread.v2/0?context=%7b%22Tid%22%3a%22ea445713-00a8-495f-aafa-26062e969e4f%22%2c%22Oid%22%3a%2251879eab-afac-4543-8456-8515288eee77%22%7d>\nMøte-ID: 367 242 737 648\nPassord: GtA9rs\nLast nedTeams<https://www.microsoft.com/en-us/microsoft-teams/download-app> | Join on the web<https://www.microsoft.com/microsoft-teams/join-a-meeting>\nEller ring inn (bare lyd)\n+47 21 40 41 73,,846154969#<tel:+4721404173,,846154969#>   Norway, Oslo\nTelefonkonferanse-ID: 846 154 969#\nFinn et lokalt nummer<https://dialin.teams.microsoft.com/0142a0ab-4408-4663-aad0-d275a1819bc0?id=846154969> | Tilbakestill PIN-kode<https://dialin.teams.microsoft.com/usp/pstnconferencing>\nForsvarsbygg IT brukerstøtte 468 68 700\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Hjelp<https://forsvarsbygg.sharepoint.com/sites/selvhjelpsportal-m365/SitePages/Landingsside_Teams.aspx> | Møtealternativer<https://teams.microsoft.com/meetingOptions/?organizerId=51879eab-afac-4543-8456-8515288eee77&tenantId=ea445713-00a8-495f-aafa-26062e969e4f&threadId=19_meeting_NDFkMmU1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZDgxMDg5@thread.v2&messageId=0&language=nb-NO> | Juridisk<https://forsvarsbygg.no/no/om-oss/personvern>\n________________________________________________________________________________\n\n",
+    "location": "Microsoft Teams-møte",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "madelen.theres.bjordal@forsvarsbygg.no",
+      "displayName": "Bjørdal, Madelen Theres"
+    },
+    "start": {
+      "dateTime": "2024-03-06T13:15:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "end": {
+      "dateTime": "2024-03-06T13:45:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "visibility": "private",
+    "iCalUID": "040000008200E00074C5B7101A82E00800000000D07B9AD7476EDA01000000000000000010000000D8938CF93D5B6D4D9E3861BB1BE37975",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "self": true,
+        "responseStatus": "accepted"
+      },
+      {
+        "email": "frode.grottveit@forsvarsbygg.no",
+        "displayName": "Grøttveit, Frode",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "hans-jorgen.brenna@forsvarsbygg.no",
+        "displayName": "Brenna, Hans-Jørgen",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "madelen.theres.bjordal@forsvarsbygg.no",
+        "displayName": "Bjørdal, Madelen Theres",
+        "organizer": true,
+        "responseStatus": "accepted"
+      },
+      {
+        "email": "stein.atle.sundland@forsvarsbygg.no",
+        "displayName": "Sundland, Stein Atle",
+        "responseStatus": "needsAction"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "privateCopy": true,
+    "reminders": {
+      "useDefault": true
+    },
+    "attachments": [
+      {
+        "fileUrl": "https://mail.google.com/?view=att&th=18e0ec0fc284ee22&attid=0.1&disp=attd&zw",
+        "title": "image001.png",
+        "iconLink": ""
+      }
+    ],
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3421010326522000\"",
+    "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8ko32gq3850j6h1l6p348g9g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g6spjag9n6co34d1p71344dhk650j6cq56l138h1o6p1k6e216cq0",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4a28zMmdxMzg1MGo2aDFsNnAzNDhnOWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNnNwamFnOW42Y28zNGQxcDcxMzQ0ZGhrNjUwajZjcTU2bDEzOGgxbzZwMWs2ZTIxNmNxMCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2024-03-15T11:06:40.000Z",
+    "updated": "2024-03-15T12:19:23.261Z",
+    "summary": "Andregangsintervju; Thomas Ådlandsvik",
+    "description": "Hei Thomas,\n\nTakk for en hyggelig telefonsamtale. Du gjorde som sagt et godt inntrykk og er en av kandidatene til stillingen IT konsulent elektronisk sikring som vi ønsker å bli bedre kjent med.\nBekrefter med dette ditt andregangsintervju torsdag 21. mars kl 09:00. Vi setter av ca. 1,5 time til intervjuet med oppmøtested på Briggen befalmesse. Adresse; Haakonsvernveien 90, 5173 Loddefjord. Meld deg inn som besøkende i skranken, så henter vi deg når vi er klare.\n\nI forbindelse med intervjuet ønsker vi at du gjennomfører en personlighetstest. Denne vil kunne si litt om din yrkesrelaterte personlighetsprofil. Lenke og mer informasjon om gjennomføring kommer i separat mail.\n\nTa kontakt ved spørsmål. Vi gleder oss til å bli bedre kjent med deg! 😊\n\nMed vennlig hilsen\nMadelen Theres Bjørdal\nHR Rådgiver\nRessurssenteret\n\n[cid:image001.png@01DA76D0.404C2C60]\n\nMobil: +47 932 24 801\nE- post: madelen.theres.bjordal@forsvarsbygg.no<mailto:madelen.theres.bjordal@forsvarsbygg.no>\nInternett: www.forsvarsbygg.no<http://www.forsvarsbygg.no/>\n\nBesøksadresse: Grev Wedels Plass 5\nPostadresse: Postboks 405 Sentrum, 0103 Oslo\nSentralbord: 468 70 400\n\n",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "madelen.theres.bjordal@forsvarsbygg.no",
+      "displayName": "Bjørdal, Madelen Theres"
+    },
+    "start": {
+      "dateTime": "2024-03-21T09:00:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "end": {
+      "dateTime": "2024-03-21T10:25:00+01:00",
+      "timeZone": "Europe/Amsterdam"
+    },
+    "visibility": "private",
+    "iCalUID": "040000008200E00074C5B7101A82E00800000000E01CCAA3D56FDA01000000000000000010000000735A7302498FB641A33E5B4D86CC8A34",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "lars.oddvar.solberg@forsvarsbygg.no",
+        "displayName": "Solberg, Lars Oddvar",
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "self": true,
+        "responseStatus": "accepted"
+      },
+      {
+        "email": "frode.grottveit@forsvarsbygg.no",
+        "displayName": "Grøttveit, Frode",
+        "optional": true,
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "hans-jorgen.brenna@forsvarsbygg.no",
+        "displayName": "Brenna, Hans-Jørgen",
+        "optional": true,
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "madelen.theres.bjordal@forsvarsbygg.no",
+        "displayName": "Bjørdal, Madelen Theres",
+        "organizer": true,
+        "responseStatus": "accepted"
+      },
+      {
+        "email": "stein.atle.sundland@forsvarsbygg.no",
+        "displayName": "Sundland, Stein Atle",
+        "responseStatus": "needsAction"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "privateCopy": true,
+    "reminders": {
+      "useDefault": true
+    },
+    "attachments": [
+      {
+        "fileUrl": "https://mail.google.com/?view=att&th=18e41caf8af4ce4e&attid=0.1&disp=attd&zw",
+        "title": "image001.png",
+        "iconLink": ""
+      }
+    ],
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3457781859884000\"",
+    "id": "_6tlnaqrle5p6cpb4dhmj4phpegq78rjbd5n6oe9m75nm2t3fd8p36shlcpj34d3ke9gmso9g61oj8t9ld1in4qr7coq66tjdecpmcpreekr30",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVncTc4cmpiZDVuNm9lOW03NW5tMnQzZmQ4cDM2c2hsY3BqMzRkM2tlOWdtc285ZzYxb2o4dDlsZDFpbjRxcjdjb3E2NnRqZGVjcG1jcHJlZWtyMzAgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2024-01-22T14:25:43.000Z",
+    "updated": "2024-10-14T07:28:49.942Z",
+    "summary": "Flight to Oslo (DY 653)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E\n",
+    "location": "Bergen BGO",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2024-04-08T20:30:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2024-04-08T21:25:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "transparency": "transparent",
+    "visibility": "private",
+    "iCalUID": "7kukuqrfedlm2f9t4tnkinl969oatoj23r5ff24trana00q4u5herkgf4cvms3fgnu60",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "organizer": true,
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "reminders": {
+      "useDefault": true
+    },
+    "source": {
+      "url": "https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E",
+      "title": ""
+    },
+    "eventType": "fromGmail"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3457781859884000\"",
+    "id": "_6tlnaqrle5p6cpb4dhmj4phpehl64sjcdosncebmccr3gdbh6pqj4obd65hjichle8qjedbk61ijgqph6hj36rr565m6aqrec5qj4s3lcks6e",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVobDY0c2pjZG9zbmNlYm1jY3IzZ2RiaDZwcWo0b2JkNjVoamljaGxlOHFqZWRiazYxaWpncXBoNmhqMzZycjU2NW02YXFyZWM1cWo0czNsY2tzNmUgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2024-01-22T14:25:43.000Z",
+    "updated": "2024-10-14T07:28:49.942Z",
+    "summary": "Flight to Kypros (DY 1890)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E\n",
+    "location": "Oslo OSL",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2024-04-09T06:20:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2024-04-09T10:55:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "transparency": "transparent",
+    "visibility": "private",
+    "iCalUID": "7kukuqrfedlm2f9tjbrln9v9vc685q6u2am1c925r575t0e8k14f3oe1leknau2pue8g",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "organizer": true,
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "reminders": {
+      "useDefault": true
+    },
+    "source": {
+      "url": "https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E",
+      "title": ""
+    },
+    "eventType": "fromGmail"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3457781859884000\"",
+    "id": "_6tlnaqrle5p6cpb4dhmj4phpehk6mp31c4p30t9l6ssn0obd75imqthpepo36qr66dmjerr7ctojacbi6ko38c1h64q6sdpmelr7cppiecr30",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVoazZtcDMxYzRwMzB0OWw2c3NuMG9iZDc1aW1xdGhwZXBvMzZxcjY2ZG1qZXJyN2N0b2phY2JpNmtvMzhjMWg2NHE2c2RwbWVscjdjcHBpZWNyMzAgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2024-01-22T14:25:43.000Z",
+    "updated": "2024-10-14T07:28:49.942Z",
+    "summary": "Flight to Oslo (DY 1891)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E\n",
+    "location": "Kypros LCA",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2024-04-18T19:45:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2024-04-19T00:30:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "transparency": "transparent",
+    "visibility": "private",
+    "iCalUID": "7kukuqrfedlm2f9thkdaa20u579pam9emv9vp3kf3m7oggq51r5040114n76uvvg2s60",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "organizer": true,
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "reminders": {
+      "useDefault": true
+    },
+    "source": {
+      "url": "https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E",
+      "title": ""
+    },
+    "eventType": "fromGmail"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3457781859884000\"",
+    "id": "_6tlnaqrle5p6cpb4dhmj4phpegoj0pr6c5jj0qrb69r6uprke5j70e3fe9gmgq3e69r34o9gd9h6sc38c5gmeqbce1nj6crae1m3ct3l61q30",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVnb2owcHI2YzVqajBxcmI2OXI2dXBya2U1ajcwZTNmZTlnbWdxM2U2OXIzNG85Z2Q5aDZzYzM4YzVnbWVxYmNlMW5qNmNyYWUxbTNjdDNsNjFxMzAgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2024-01-22T14:25:43.000Z",
+    "updated": "2024-10-14T07:28:49.942Z",
+    "summary": "Flight to Bergen (DY 604)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E\n",
+    "location": "Oslo OSL",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2024-04-19T08:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2024-04-19T08:55:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "transparency": "transparent",
+    "visibility": "private",
+    "iCalUID": "7kukuqrfedlm2f9t10gfag0kk2vogtqfp8orahhn2v2a0jbn0haagilpo33jpl6tu0t0",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "organizer": true,
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "reminders": {
+      "useDefault": true
+    },
+    "source": {
+      "url": "https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOqEpIM20wsdHo4SlJqpOpsrnt7XDhVK4E",
+      "title": ""
+    },
+    "eventType": "fromGmail"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3428766135396000\"",
+    "id": "64o64phl6tij8b9mckrm4b9k60s38bb26komcb9h65h6ccb2cphjccr4cg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NjRvNjRwaGw2dGlqOGI5bWNrcm00YjlrNjBzMzhiYjI2a29tY2I5aDY1aDZjY2IyY3BoamNjcjRjZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2024-04-29T09:31:07.000Z",
+    "updated": "2024-04-29T09:31:07.698Z",
+    "summary": "Visning: Sandslimarka 269",
+    "location": "Sandslimarka 269",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2024-04-29T16:30:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2024-04-29T17:30:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "64o64phl6tij8b9mckrm4b9k60s38bb26komcb9h65h6ccb2cphjccr4cg@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3491352980027294\"",
+    "id": "t1hi64nmm1f2boj4koa6rjmb8o",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=dDFoaTY0bm1tMWYyYm9qNGtvYTZyam1iOG8gdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2025-04-26T14:08:09.000Z",
+    "updated": "2025-04-26T14:08:10.013Z",
+    "summary": "Flight to Cyprus-Larnaca (D8 3390)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DNL8XM49q-I-Ved2Hqvr_sBJ8yMIO_FKZM\n",
+    "location": "Copenhagen CPH",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-04-26T15:50:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2025-04-26T19:45:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "transparency": "transparent",
+    "visibility": "private",
+    "iCalUID": "t1hi64nmm1f2boj4koa6rjmb8o@google.com",
+    "sequence": 0,
+    "attendees": [
+      {
+        "email": "thomas.aadlandsvik@gmail.com",
+        "organizer": true,
+        "self": true,
+        "responseStatus": "accepted"
+      }
+    ],
+    "guestsCanInviteOthers": false,
+    "reminders": {
+      "useDefault": true
+    },
+    "source": {
+      "url": "https://mail.google.com/mail?extsrc=cal&plid=ACUX6DNL8XM49q-I-Ved2Hqvr_sBJ8yMIO_FKZM",
+      "title": ""
+    },
+    "eventType": "fromGmail"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68p3a",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHAzYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328848##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-08-20T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-08-20T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150225",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68q3c",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHEzYyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502843##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-08-22T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-08-22T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150246",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gsji",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3NqaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425933##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-08-26T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-08-26T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155499",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32dpl74o34",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkcGw3NG8zNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Auditorium 2] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=124:603), [Jusbygget] (https://link.mazemap.com/JjiSaBka)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755158213##",
+    "location": "Auditorium 2, Jusbygget",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-08-27T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-08-27T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2175902",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68qj4",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHFqNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-08-29T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-08-29T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150252",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6ko36",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2a28zNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425933##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-02T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-02T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155503",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gs3i",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3MzaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859683##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-05T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-05T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207489",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68qjg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHFqZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-05T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-05T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150258",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lgn6sr9ctn6qpbeegmj2c1o6sojg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxnbjZzcjljdG42cXBiZWVnbWoyYzFvNnNvamcgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "Assignment 1 (CORRECTED): Project planning and preparation [INFO212]",
+    "description": "The submission of assignment 1 was set up incorrectly. Submit here instead, and please resubmit if you have already done so. \n\nBackground: [Information about the compulsory assignments] (https://mitt.uib.no/courses/53340/pages/information-about-the-compulsory-assignments)\n\nTasks:\n\n* Group formation. Select a customer representative, and perhaps a Scrum master.\n\n* Identify a problem you want to solve or an situation you want to improve.\n\n* Identify clearly who will be the users of the system\n\n* Describe 2-3 user stories per group member.\n\n* Perhaps describe one or more use cases for complex stories (for example with exceptions).\n\n* Assess the effort required to complete each user story.\n\n* Prioritise the user stories.\n\nSubmission:\n\n* Describe the outcome of each task:\n\n* Group members and roles\n\n* Project goal (problem to solve or situation to improve)\n\n* System users\n\n* User stories (and use cases)\n\n* Estimated effort per user story\n\n* Story prioritisation\n\n* Be brief. For example, the problem/situation description can be a paragraph of 3-5 sentences. This is not a writing contest.\n\n* Submit a single PDF file. Use a file name that clearly identifies the group members. Use a file name like this: Submission1-EAndersen-FBoyake-GChedid-HDahl.pdf .",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-08T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-08T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-assignment-108718",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6ko3i",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2a28zaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425934##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-09T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-09T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155509",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68pje",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHBqZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328848##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-10T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-10T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150237",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gsj2",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3NqMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859684##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-12T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-12T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207491",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68r38",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHIzOCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-12T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-12T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150264",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lgn6sr9ctn6qpbeegmj2c1o6opj2",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxnbjZzcjljdG42cXBiZWVnbWoyYzFvNm9wajIgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "Obligatory Assignment 1 [INFO180]",
+    "description": "Download the file Lab 2.pdf (in Mitt.uib -> Files -> Group Seminars (Labs) -> Lab 2 - [with Assignment 1] ).\n\nThere are some tasks for you to complete, and you need to answer all of them.\n\nFor that, you need to create a ZIP file that contains your answers (e.g., Python files) and submit it here in Mitt.uib before the deadline. This can be done during your group seminar (lab) or after. The file you submit should be named yourname_assignmentN.zip\n\nMore information may be provided by your TAs (seminar leaders) during your lab (group seminars).",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-12T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-12T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-assignment-108631",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6koja",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2a29qYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425934##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-16T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-16T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155515",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g64rjc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2NHJqYyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328849##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-17T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-17T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150176",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gsj6",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3NqNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859684##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-19T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-19T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207493",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3516534329513470\"",
+    "id": "9qkj3og3i5r2314qvtgjolqng0",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=OXFrajNvZzNpNXIyMzE0cXZ0Z2pvbHFuZzAgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2025-09-19T07:32:44.000Z",
+    "updated": "2025-09-19T07:32:44.756Z",
+    "summary": "Test Event",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-20T19:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2025-09-20T20:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "9qkj3og3i5r2314qvtgjolqng0@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3516534411275998\"",
+    "id": "ths8cu60q75db3kuhjtoospq1c",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=dGhzOGN1NjBxNzVkYjNrdWhqdG9vc3BxMWMgdGhvbWFzLmFhZGxhbmRzdmlrQG0",
+    "created": "2025-09-19T07:33:25.000Z",
+    "updated": "2025-09-19T07:33:25.637Z",
+    "summary": "Test Event",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-20T19:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "end": {
+      "dateTime": "2025-09-20T20:00:00+02:00",
+      "timeZone": "Europe/Oslo"
+    },
+    "iCalUID": "ths8cu60q75db3kuhjtoospq1c@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6grja",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3JqYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425934##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-23T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-23T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155475",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gsja",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3NqYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859684##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-26T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-26T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207495",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68pj0",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHBqMCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-26T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-26T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150230",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gs32",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3MzMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425934##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-09-30T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-09-30T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155481",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g64s3c",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2NHMzYyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328849##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-01T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-01T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150186",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gsje",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3NqZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859684##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-03T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-03T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207497",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1h74r3a",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMWg3NHIzYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-03T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-03T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2201965",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gs3e",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3MzZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425934##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-07T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-07T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155487",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32dpl74o38",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkcGw3NG8zOCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Auditorium 2] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=124:603), [Jusbygget] (https://link.mazemap.com/JjiSaBka)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755158221##",
+    "location": "Auditorium 2, Jusbygget",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-08T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-08T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2175904",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6gsji",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42Z3NqaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859684##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-10T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-10T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207499",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68pj8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHBqOCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-10T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-10T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150234",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gsj4",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3NqNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425935##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-14T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-14T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155492",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g64sja",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2NHNqYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328849##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-15T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-15T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150195",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6ko32",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a28zMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859685##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-17T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-17T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207501",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68pjg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHBqZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-17T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-17T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150238",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gpj8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3BqOCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425935##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-21T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-21T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155434",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68p34",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHAzNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328849##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-22T10:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-22T12:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150222",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6ko36",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a28zNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859685##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-24T08:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-24T10:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207503",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68q32",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHEzMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-24T12:15:00+02:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-24T14:00:00+02:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150241",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gpji",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3BqaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425935##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-28T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-28T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155439",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g64sji",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2NHNqaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328849##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-29T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-29T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150199",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6ko3a",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a28zYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859685##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-31T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-31T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207505",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68r3g",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHIzZyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-10-31T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-10-31T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150268",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gq3a",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3EzYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425935##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-04T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-04T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155445",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68o36",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OG8zNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328850##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-05T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-05T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150203",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6ko3e",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a28zZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859685##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-07T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-07T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207507",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68rj4",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHJqNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-07T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-07T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150272",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gqj2",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3FqMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425935##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-11T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-11T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155451",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68o3e",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OG8zZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328850##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-12T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-12T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150207",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6ko3i",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a28zaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859685##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-14T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-14T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207509",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1h74r3c",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMWg3NHIzYyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-14T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-14T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2201966",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gqje",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3FqZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425936##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-18T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-18T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155457",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68oj2",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OG9qMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328850##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-19T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-19T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150211",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6koj2",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a29qMiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859686##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-21T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-21T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207511",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68rje",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHJqZSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-21T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-21T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150277",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gr36",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3IzNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425936##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-25T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-25T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155463",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68ojc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OG9qYyB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328850##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-26T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-26T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150216",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6koj6",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a29qNiB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859686##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-28T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-28T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207513",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68s34",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHMzNCB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-11-28T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-11-28T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150282",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9l6gr3i",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWw2Z3IzaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Seminargruppe 3 [INFO180]",
+    "description": "Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243/301.04H1), [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1748425936##",
+    "location": "Seminarrom E, Studentsenteret",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-12-02T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-12-02T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2155469",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68oji",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OG9qaSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO180: Forelesning [INFO180]",
+    "description": "Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108), [Lauritz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagperson\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1745328850##",
+    "location": "Storetinget, Lauritz Meltzers hus (SV-bygget)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-12-03T10:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-12-03T12:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150219",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp34c1n6koja",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzRjMW42a29qYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Seminargruppe 2 [INFO212]",
+    "description": "Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01), [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1755859686##",
+    "location": "Seminarrom 4B, Ulrike Pihls hus",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-12-05T08:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-12-05T10:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2207515",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3514138589078270\"",
+    "id": "_clr6arjk5lhm2r35dpi62shdclr6arjk5kp32d9g68s3a",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=X2NscjZhcmprNWxobTJyMzVkcGk2MnNoZGNscjZhcmprNWtwMzJkOWc2OHMzYSB0aG9tYXMuYWFkbGFuZHN2aWtAbQ",
+    "created": "2025-09-05T10:48:13.000Z",
+    "updated": "2025-09-05T10:48:14.539Z",
+    "summary": "INFO212: Forelesning [INFO212]",
+    "description": "Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&campuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128), [Bjørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRDT7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/user/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##",
+    "location": "Auditorium 128, Bjørn Christiansens hus (Christies gate 12)",
+    "creator": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "thomas.aadlandsvik@gmail.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-12-05T12:15:00+01:00",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-12-05T14:00:00+01:00",
+      "timeZone": "UTC"
+    },
+    "visibility": "public",
+    "iCalUID": "event-calendar-event-2150285",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]
