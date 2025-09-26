@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Calendar Assistant - Prototipo</title>
+  <style>
+    :root{--bg:#f5f7fb;--card:#fff;--accent:#2563eb;--muted:#64748b}
+    body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);margin:0;padding:20px;color:#0f172a}
+    .app{max-width:1100px;margin:0 auto;background:transparent}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .dot{width:36px;height:36px;border-radius:8px;background:var(--accent);display:inline-block}
+    .controls{display:flex;gap:10px;align-items:center}
+    .btn{background:var(--accent);color:white;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(37,99,235,0.2)}
+
+    .main{display:grid;grid-template-columns:1fr 320px;gap:16px}
+    .calendar-card{background:var(--card);border-radius:12px;padding:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+
+    .calendar-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+    .view-toggle{display:flex;gap:8px}
+    .week-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+    .day{min-height:220px;border-radius:8px;padding:8px;background:linear-gradient(180deg, rgba(99,102,241,0.04), transparent);border:1px dashed rgba(15,23,42,0.03);position:relative}
+    .day h4{margin:0;font-size:13px}
+    .slot{display:block;margin-top:6px;padding:6px;border-radius:6px;font-size:13px;background:#e6eefc;border-left:4px solid #3b82f6;cursor:default}
+    .slot.work{background:#e6f9ec;border-left-color:#16a34a}
+    .slot.personal{background:#fff4e6;border-left-color:#fb923c}
+
+    aside{display:flex;flex-direction:column;gap:12px}
+    .tasks{background:var(--card);padding:12px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+    .tasks h3{margin:0 0 8px 0}
+    .task-list{display:flex;flex-direction:column;gap:8px}
+    .task{background:#f8fafc;padding:8px;border-radius:8px;border:1px solid rgba(15,23,42,0.03);display:flex;justify-content:space-between;align-items:center}
+    .task .meta{font-size:12px;color:var(--muted)}
+
+    .add-form{display:flex;gap:8px;margin-top:8px}
+    input, select{padding:8px;border-radius:8px;border:1px solid rgba(15,23,42,0.06);font-size:14px}
+    .suggestions{background:var(--card);padding:12px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+
+    .footer-suggest{margin-top:12px;background:#fff;padding:10px;border-radius:8px;border:1px solid rgba(15,23,42,0.03);display:flex;justify-content:space-between;align-items:center}
+
+    /* drag hint */
+    .dragging{opacity:0.5}
+    .drop-over{outline:3px dashed rgba(37,99,235,0.25)}
+
+    .task[draggable="true"] {cursor: grab;}
+    .task.dragging {opacity: 0.5;}
+    .day.drop-over {outline: 3px dashed rgba(37,99,235,0.25);}
+
+    .slot {cursor: grab;}
+    .slot.dragging {opacity: 0.5;}
+    .day.drop-over {outline: 3px dashed rgba(37,99,235,0.25);}
+
+    /* vista día: solo el primer día ocupa todo el ancho */
+    #weekGrid.view-day .day {
+      display: none;
+    }
+    #weekGrid.view-day .day:first-child {
+      display: block;
+      grid-column: 1 / -1; /* ocupa todo el ancho */    
+    }
+
+    /* vista semana: 7 columnas (ya lo tienes por defecto) */
+    #weekGrid.view-week .day {
+      display: block;
+    }
+
+    /* vista mes: mostramos mini-celdas */
+    #weekGrid.view-month {
+      grid-template-columns: repeat(7,1fr);
+    }
+    #weekGrid.view-month .day {
+      min-height: 100px;
+      font-size: 12px;
+    }
+
+
+
+    @media (max-width:900px){.main{grid-template-columns:1fr}aside{order:2}}
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">
+        <div class="dot"></div>
+        <div>
+          <strong>AI Calendar Assistant</strong><br><small style="color:var(--muted)">Prototipo — versión simple</small>
+        </div>
+      </div>
+      <div class="controls">
+        <div style="color:var(--muted);font-size:14px">Semana: 7 - 13 Sep 2025</div>
+        <button class="btn ghost">Perfil</button>
+        <button class="btn">Conectar calendario</button>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="calendar-card">
+        <div class="calendar-header">
+          <div>
+            <strong>Vista semanal</strong>
+            <div style="font-size:13px;color:var(--muted)">Arrastra tareas desde la derecha al día deseado</div>
+          </div>
+          <div class="view-toggle">
+            <button class="btn ghost" onclick="toggleView('day')">Día</button>
+            <button class="btn" onclick="toggleView('week')">Semana</button>
+            <button class="btn ghost" onclick="toggleView('month')">Mes</button>
+          </div>
+        </div>
+
+        <div class="week-grid" id="weekGrid">
+          <div class="day" data-day="Lunes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Lunes</h4>
+            <div class="slot" data-type="study">09:00 - 11:00 • Estudio: Matemáticas</div>
+            <div class="slot work">13:00 - 16:00 • Trabajo</div>
+          </div>
+
+          <div class="day" data-day="Martes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Martes</h4>
+            <div class="slot personal">18:00 - 20:00 • Cita personal</div>
+          </div>
+
+          <div class="day" data-day="Miércoles" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Miércoles</h4>
+
+          </div>
+
+          <div class="day" data-day="Jueves" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Jueves</h4>
+          </div>
+
+          <div class="day" data-day="Viernes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Viernes</h4>
+            <div class="slot" data-type="exam">10:00 - 12:00 • Examen</div>
+          </div>
+
+          <div class="day" data-day="Sábado" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Sábado</h4>
+          </div>
+
+          <div class="day" data-day="Domingo" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Domingo</h4>
+            <div class="slot personal">Todo el día • Descanso</div>
+          </div>
+        </div>
+
+        <div class="footer-suggest">
+          <div style="font-size:13px;color:var(--muted)">Sugerencias del asistente: 1 conflicto detectado</div>
+          <div>
+            <button class="btn ghost" onclick="showSuggestion()">Ver sugerencia</button>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="tasks">
+          <h3>Tareas pendientes</h3>
+          <div class="task-list" id="taskList">
+            <!-- tareas generadas -->
+          </div>
+
+          <div class="add-form">
+            <input id="taskTitle" placeholder="Nombre tarea" />
+            <select id="taskType">
+              <option value="study">Estudio</option>
+              <option value="work">Trabajo</option>
+              <option value="personal">Personal</option>
+            </select>
+            <button class="btn" onclick="addTask()">+ Añadir</button>
+          </div>
+        </div>
+
+        <div class="suggestions">
+          <h3>Sugerencias</h3>
+          <div id="suggestionBox">
+            <div style="font-size:13px;color:var(--muted)">Ninguna sugerencia activa.</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  // hacer cada slot arrastrable
+  document.querySelectorAll('.slot').forEach(slot => {
+    slot.setAttribute('draggable', 'true');
+  });
+
+  let draggedSlot = null;
+
+  // Arrastrar los slots
+  document.addEventListener('dragstart', e => {
+    const slot = e.target.closest('.slot');
+    if (!slot) return;
+    draggedSlot = slot;
+    slot.classList.add('dragging');
+    // necesario para algunos navegadores
+    if (e.dataTransfer) {
+      e.dataTransfer.setData('text/plain', ''); 
+      e.dataTransfer.effectAllowed = 'move';
+    }
+  });
+
+  document.addEventListener('dragend', e => {
+    const slot = e.target.closest('.slot');
+    if (!slot) return;
+    slot.classList.remove('dragging');
+    draggedSlot = null;
+  });
+
+  // Manejar drop en los días
+  document.querySelectorAll('.day').forEach(day => {
+    day.addEventListener('dragover', e => {
+      e.preventDefault();
+      day.classList.add('drop-over');
+    });
+    day.addEventListener('dragleave', e => {
+      day.classList.remove('drop-over');
+    });
+    day.addEventListener('drop', e => {
+      e.preventDefault();
+      day.classList.remove('drop-over');
+      if (draggedSlot) {
+        day.appendChild(draggedSlot);
+        draggedSlot = null;
+      }
+    });
+  });
+
+  // Toggle vista
+  window.toggleView = function(view) {
+    const grid = document.getElementById('weekGrid');
+    if (!grid) return;
+    grid.classList.remove('view-day','view-week','view-month');
+
+    if (view === 'day') {
+      grid.classList.add('view-day');
+    } else if (view === 'week') {
+      grid.classList.add('view-week');
+    } else if (view === 'month') {
+      grid.classList.add('view-month');
+    }
+  };
+});
+</script>
+
+
+</body>
+</html>
