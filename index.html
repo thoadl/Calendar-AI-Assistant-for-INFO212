@@ -107,5 +107,71 @@
       </aside>
     </div>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // hacer cada slot arrastrable
+      document.querySelectorAll('.slot').forEach(slot => {
+        slot.setAttribute('draggable', 'true');
+      });
+
+      let draggedSlot = null;
+
+      // Arrastrar los slots
+      document.addEventListener('dragstart', e => {
+        const slot = e.target.closest('.slot');
+        if (!slot) return;
+        draggedSlot = slot;
+        slot.classList.add('dragging');
+        // necesario para algunos navegadores
+        if (e.dataTransfer) {
+          e.dataTransfer.setData('text/plain', ''); 
+          e.dataTransfer.effectAllowed = 'move';
+        }
+      });
+
+      document.addEventListener('dragend', e => {
+        const slot = e.target.closest('.slot');
+        if (!slot) return;
+        slot.classList.remove('dragging');
+        draggedSlot = null;
+      });
+
+      // Manejar drop en los días
+      document.querySelectorAll('.day').forEach(day => {
+        day.addEventListener('dragover', e => {
+          e.preventDefault();
+          day.classList.add('drop-over');
+        });
+        day.addEventListener('dragleave', e => {
+          day.classList.remove('drop-over');
+        });
+        day.addEventListener('drop', e => {
+          e.preventDefault();
+          day.classList.remove('drop-over');
+          if (draggedSlot) {
+            day.appendChild(draggedSlot);
+            draggedSlot = null;
+          }
+        });
+      });
+
+      // Toggle vista
+      window.toggleView = function(view) {
+        const grid = document.getElementById('weekGrid');
+        if (!grid) return;
+        grid.classList.remove('view-day','view-week','view-month');
+
+        if (view === 'day') {
+          grid.classList.add('view-day');
+        } else if (view === 'week') {
+          grid.classList.add('view-week');
+        } else if (view === 'month') {
+          grid.classList.add('view-month');
+        }
+      };
+    });
+  </script>
+
 </body>
 </html>
