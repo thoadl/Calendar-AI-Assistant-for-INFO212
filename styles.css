@@ -1,0 +1,174 @@
+:root{
+  --bg:#f5f7fb;
+  --card:#fff;
+  --accent:#2563eb;
+  --muted:#64748b;
+}
+
+body{
+  font-family:Inter, system-ui, Arial, sans-serif;
+  background:var(--bg);
+  margin:0;
+  padding:20px;
+  color:#0f172a;
+}
+
+.app{
+  max-width:1100px;
+  margin:0 auto;
+  background:transparent;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:14px;
+}
+
+.logo{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.logo .dot{
+  width:36px;
+  height:36px;
+  border-radius:8px;
+  background:var(--accent);
+  display:inline-block;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.btn{
+  background:var(--accent);
+  color:white;
+  padding:8px 12px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+}
+
+.btn.ghost{
+  background:transparent;
+  color:var(--accent);
+  border:1px solid rgba(37,99,235,0.2);
+}
+
+.main{
+  display:grid;
+  grid-template-columns:1fr 320px;
+  gap:16px;
+}
+
+.calendar-card{
+  background:var(--card);
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+
+.calendar-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.view-toggle{
+  display:flex;
+  gap:8px;
+}
+
+.week-grid{
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  gap:6px;
+}
+
+.day{
+  min-height:220px;
+  border-radius:8px;
+  padding:8px;
+  background:linear-gradient(180deg, rgba(99,102,241,0.04), transparent);
+  border:1px dashed rgba(15,23,42,0.03);
+  position:relative;
+}
+
+.day h4{
+  margin:0;
+  font-size:13px;
+}
+
+.slot{
+  display:block;
+  margin-top:6px;
+  padding:6px;
+  border-radius:6px;
+  font-size:13px;
+  background:#e6eefc;
+  border-left:4px solid #3b82f6;
+  cursor:default;
+}
+
+.slot.work{
+  background:#e6f9ec;
+  border-left-color:#16a34a;
+}
+
+.slot.personal{
+  background:#fff4e6;
+  border-left-color:#fb923c;
+}
+
+aside{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.tasks{
+  background:var(--card);
+  padding:12px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.04);
+}
+
+.tasks h3{
+  margin:0 0 8px 0;
+}
+
+.task-list{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.task{
+  background:#f8fafc;
+  padding:8px;
+  border-radius:8px;
+  border:1px solid rgba(15,23,42,0.03);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.task .meta{
+  font-size:12px;
+  color:var(--muted);
+}
+
+.add-form{
+  display:flex;
+  gap:8px;
+  margin-top:8px;
+}
+
+inpu
