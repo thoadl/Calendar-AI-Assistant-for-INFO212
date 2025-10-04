@@ -2,18 +2,20 @@ from datetime import datetime, timedelta
 import json
 import os
 
+
 def save_draft_event(event_dict, filename="draft_calendar.json"):
     """Saves an event on the draft calendar"""
-    try:
+    import json, os
+    events = []
+    if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
-            draft = json.load(f)
-    except FileNotFoundError:
-        draft = []
-
-    draft.append(event_dict)
-
+            try:
+                events = json.load(f)
+            except json.JSONDecodeError:
+                events = []
+    events.append(event_dict)
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(draft, f, indent=2, ensure_ascii=False)
+        json.dump(events, f, indent=2, ensure_ascii=False)
 
 
 def apply_changes(service):
@@ -30,13 +32,14 @@ def apply_changes(service):
     os.remove("draft_calendar.json")
 
 
-def create_event_dict(date: str, start_time: str, duration_minutes: int, title: str):
+def create_event_dict(date: str, start_time: str, duration_minutes: int, title: str, draft: bool):
     start = datetime.strptime(f"{date} {start_time}", "%Y-%m-%d %H:%M")
     end = start + timedelta(minutes=duration_minutes)
     return {
         "summary": title,
         "start": {"dateTime": start.isoformat(), "timeZone": "Europe/Madrid"},
-        "end":   {"dateTime": end.isoformat(), "timeZone": "Europe/Madrid"}
+        "end":   {"dateTime": end.isoformat(), "timeZone": "Europe/Madrid"},
+        "draft": draft
     }
 
 

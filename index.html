@@ -23,9 +23,12 @@
     .week-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
     .day{min-height:220px;border-radius:8px;padding:8px;background:linear-gradient(180deg, rgba(99,102,241,0.04), transparent);border:1px dashed rgba(15,23,42,0.03);position:relative}
     .day h4{margin:0;font-size:13px}
-    .slot{display:block;margin-top:6px;padding:6px;border-radius:6px;font-size:13px;background:#e6eefc;border-left:4px solid #3b82f6;cursor:default}
+    .slot{display:block;margin-top:6px;padding:6px;border-radius:6px;font-size:13px;cursor:default}
     .slot.work{background:#e6f9ec;border-left-color:#16a34a}
     .slot.personal{background:#fff4e6;border-left-color:#fb923c}
+    .slot.draft {background-color: lightcoral; border-left: 4px solid darkred; /* o lo que quieras */}
+    .slot.real { background: #c8e6c9;  border-left: 4px solid green;}
+    .slot.conflict { border: 2px solid red; }
 
     aside{display:flex;flex-direction:column;gap:12px}
     .tasks{background:var(--card);padding:12px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
@@ -112,50 +115,48 @@
         </div>
 
         <div class="week-grid" id="weekGrid">
-          <div class="day" data-day="Lunes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Lunes</h4>
-            <div class="slot" data-type="study">09:00 - 11:00 • Estudio: Matemáticas</div>
-            <div class="slot work">13:00 - 16:00 • Trabajo</div>
+          <div class="day" data-date="2025-09-07" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Monday</h4>
+            <!--<div class="slot" data-type="study">09:00 - 11:00 • Estudio: Matemáticas</div>
+            <div class="slot work">13:00 - 16:00 • Trabajo</div>-->
           </div>
-
-          <div class="day" data-day="Martes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Martes</h4>
-            <div class="slot personal">18:00 - 20:00 • Cita personal</div>
+        
+          <div class="day" data-date="2025-09-08" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Tuesday</h4>
+            <!--<div class="slot personal">18:00 - 20:00 • Cita personal</div>-->
           </div>
-
-          <div class="day" data-day="Miércoles" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Miércoles</h4>
-
+        
+          <div class="day" data-date="2025-09-09" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Wednesday</h4>
           </div>
-
-          <div class="day" data-day="Jueves" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Jueves</h4>
+        
+          <div class="day" data-date="2025-09-10" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Thursday</h4>
           </div>
-
-          <div class="day" data-day="Viernes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Viernes</h4>
-            <div class="slot" data-type="exam">10:00 - 12:00 • Examen</div>
+        
+          <div class="day" data-date="2025-09-11" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Friday</h4>
+            <!--<div class="slot" data-type="exam">10:00 - 12:00 • Examen</div>-->
           </div>
-
-          <div class="day" data-day="Sábado" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Sábado</h4>
+        
+          <div class="day" data-date="2025-09-12" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Saturday</h4>
           </div>
-
-          <div class="day" data-day="Domingo" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Domingo</h4>
-            <div class="slot personal">Todo el día • Descanso</div>
+        
+          <div class="day" data-date="2025-09-13" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
+            <h4>Sunday</h4>
+            <!--<div class="slot personal">Todo el día • Descanso</div>-->
           </div>
-        </div>
-
-        <div class="footer-suggest">
-          <div style="font-size:13px;color:var(--muted)">Sugerencias del asistente: 1 conflicto detectado</div>
-          <div>
-            <button class="btn ghost" onclick="showSuggestion()">Ver sugerencia</button>
-          </div>
+          
         </div>
       </section>
 
       <aside>
+        <div class="actions">
+          <button id="commitBtn">Apply changes</button>
+          <button id="discardBtn">Discard changes</button>
+        </div>
+
         <div class="tasks">
           <h3>Tareas pendientes</h3>
           <div class="task-list" id="taskList">
@@ -165,42 +166,52 @@
           <div class="add-form">
             <input id="taskTitle" placeholder="Nombre tarea" />
             <select id="taskType">
-              <option value="study">Estudio</option>
-              <option value="work">Trabajo</option>
+              <option value="study">Study</option>
+              <option value="work">Work</option>
               <option value="personal">Personal</option>
             </select>
-            <button class="btn" onclick="addTask()">+ Añadir</button>
+            <!--<button class="btn" onclick="addTask()">+ Añadir</button>-->
+            <button class="btn" onclick="testAddEvent()">Add example event</button>
           </div>
         </div>
 
-        <div class="suggestions">
+        <!--<div class="suggestions">
           <h3>Sugerencias</h3>
           <div id="suggestionBox">
             <div style="font-size:13px;color:var(--muted)">Ninguna sugerencia activa.</div>
           </div>
+        </div>-->
+
+        <div class="add-event-form">
+          <h3>Add event</h3>
+          <input type="date" id="eventDate" />
+          <input type="time" id="eventTime" />
+          <input type="number" id="eventDuration" placeholder="Duration (min)" />
+          <input type="text" id="eventTitle" placeholder="Title" />
+          <button id="addEventBtn">+ Add event</button>
         </div>
+
       </aside>
     </div>
   </div>
 <script>
 
 document.addEventListener('DOMContentLoaded', () => {
-  // hacer cada slot arrastrable
+  let draggedSlot = null;
+
+  // Hacer slots arrastrables
   document.querySelectorAll('.slot').forEach(slot => {
     slot.setAttribute('draggable', 'true');
   });
 
-  let draggedSlot = null;
-
-  // Arrastrar los slots
+  // Drag & Drop
   document.addEventListener('dragstart', e => {
     const slot = e.target.closest('.slot');
     if (!slot) return;
     draggedSlot = slot;
     slot.classList.add('dragging');
-    // necesario para algunos navegadores
     if (e.dataTransfer) {
-      e.dataTransfer.setData('text/plain', ''); 
+      e.dataTransfer.setData('text/plain', '');
       e.dataTransfer.effectAllowed = 'move';
     }
   });
@@ -212,7 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
     draggedSlot = null;
   });
 
-  // Manejar drop en los días
   document.querySelectorAll('.day').forEach(day => {
     day.addEventListener('dragover', e => {
       e.preventDefault();
@@ -231,20 +241,189 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  document.getElementById("commitBtn").addEventListener("click", async () => {
+    await fetch("http://localhost:8000/commit", { method: "POST" })
+      /*.then(r => r.json())
+      .then(() => {*/
+      alert("Changes applied");
+      loadEvents();
+      
+  });
+
+  document.getElementById("discardBtn").addEventListener("click", () => {
+    fetch("http://localhost:8000/discard", { method: "POST" })
+      .then(r => r.json())
+      .then(() => {
+        alert("Changes deleted");
+        loadEvents();
+      });
+  });
+
+  async function loadPreview() {
+    const res = await fetch("http://localhost:8000/preview");
+    const data = await res.json();
+    
+    // limpiar
+    document.querySelectorAll(".day").forEach(day =>
+      day.querySelectorAll(".slot").forEach(s => s.remove())
+    );
+
+    // pintar eventos reales
+    data.real.forEach(ev => paintEvent(ev, "real"));
+
+    // pintar draft
+    data.draft.forEach(ev => paintEvent(ev, "draft"));
+
+    // marcar conflictos
+    data.conflicts.forEach(([e1, e2]) => {
+      markConflict(e1, e2);
+    });
+  }
+
+  function paintEvent(ev, source) {
+    const dayName = new Date(ev.start).toLocaleDateString("en-US", { weekday: "long" });
+    const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
+    if (!dayEl) return;
+    
+    const slot = document.createElement("div");
+    slot.classList.add("slot");
+
+    // 👇 decide la clase según flags
+    if (ev.draft) {
+      slot.classList.add("draft");
+    } else {
+      slot.classList.add("real");
+    }
+
+    if (ev.conflict) {
+      slot.classList.add("conflict");
+    }
+
+    const start = ev.start.dateTime || ev.start.date;
+    const end = ev.end.dateTime || ev.end.date;
+    slot.textContent = `${start.substring(11,16)} - ${end.substring(11,16)} • ${ev.summary}`;    
+    dayEl.appendChild(slot);
+  }
+
+  function markConflict(ev1, ev2) {
+    // buscar slots y añadir clase .conflict
+    [ev1, ev2].forEach(ev => {
+      const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
+      if (!dayEl) return;
+      Array.from(dayEl.querySelectorAll(".slot")).forEach(slot => {
+        if (slot.textContent.includes(ev.title)) {
+          slot.classList.add("conflict");
+        }
+      });
+    });
+  }
+
+
+  function getDayName(isoDate) {
+    const days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday", "Sunday"];
+    const d = new Date(isoDate);
+    return days[d.getDay()];
+}
+
+// Cargar eventos
+async function loadEvents() {
+    try {
+      const res = await fetch("http://localhost:8000/events");
+      const events = await res.json();
+
+      // Limpiar slots
+      document.querySelectorAll(".day").forEach(day => {
+        day.querySelectorAll(".slot").forEach(s => s.remove());
+      });
+
+      // Añadir eventos
+      events.forEach(ev => {
+        const dayName = getDayName(ev.start);
+        const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
+        if (dayEl) {
+          const slot = document.createElement("div");
+          slot.className = "slot " + (ev.draft ? "draft" : "real");
+          slot.textContent = `${ev.start.slice(11,16)} - ${ev.end.slice(11,16)} • ${ev.title}`;
+          slot.setAttribute("draggable", "true");
+          dayEl.appendChild(slot);
+        }
+      });
+    } catch (err) {
+      console.error("Error loading events:", err);
+    }
+  }
+
+  // Añadir evento al draft
+  async function addEventToDraft(ev) {
+    await fetch("http://localhost:8000/draft/add", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(ev)
+    });
+    loadEvents();
+  }
+
+  // Función de prueba para añadir evento
+  window.testAddEvent = async function() {
+    const newEvent = {
+      date: "2025-09-07",
+      time: "17:00",
+      duration: 90,
+      title: "Example event"
+    };
+    await addEventToDraft(newEvent);
+  }
+
+  // Cargar eventos al inicio
+  loadEvents();
+
+  document.getElementById("addEventBtn").addEventListener("click", async () => {
+    const date = document.getElementById("eventDate").value;
+    const time = document.getElementById("eventTime").value;
+    const duration = parseInt(document.getElementById("eventDuration").value);
+    const title = document.getElementById("eventTitle").value;
+
+    if (!date || !time || !duration || !title) {
+      alert("Complete all fields");
+      return;
+    }
+
+    // const newEvent = { date, time, duration, title, type: "event" };
+    const start = `${date}T${time}:00`;
+    const endDate = new Date(start);
+    endDate.setMinutes(endDate.getMinutes() + duration);
+    // YYYY-MM-DDTHH:mm:ss
+    const pad = n => n.toString().padStart(2, "0");
+    const end = `${endDate.getFullYear()}-${pad(endDate.getMonth()+1)}-${pad(endDate.getDate())}T${pad(endDate.getHours())}:${pad(endDate.getMinutes())}:00`;
+    const newEvent = { start, end, title, draft: true };
+
+
+    // enviar al backend
+    await fetch("http://localhost:8000/draft/add", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(newEvent)
+    });
+
+    // recargar eventos en la interfaz
+    loadEvents();
+
+    // limpiar inputs
+    document.getElementById("eventDate").value = "";
+    document.getElementById("eventTime").value = "";
+    document.getElementById("eventDuration").value = "";
+    document.getElementById("eventTitle").value = "";
+  });
+
+
   // Toggle vista
   window.toggleView = function(view) {
     const grid = document.getElementById('weekGrid');
     if (!grid) return;
     grid.classList.remove('view-day','view-week','view-month');
-
-    if (view === 'day') {
-      grid.classList.add('view-day');
-    } else if (view === 'week') {
-      grid.classList.add('view-week');
-    } else if (view === 'month') {
-      grid.classList.add('view-month');
-    }
+    grid.classList.add(`view-${view}`);
   };
+  
 });
 </script>
 

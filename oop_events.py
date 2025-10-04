@@ -16,7 +16,7 @@ class Event:
         """Create an Event object from a JSON/dict representation"""
         start = data["start"].get("dateTime") or data["start"].get("date")
         end = data["end"].get("dateTime") or data["end"].get("date")
-        return Event.__init__(
+        return Event(
             title=data.get("summary", "Untitled"),
             start=datetime.fromisoformat(start),
             end=datetime.fromisoformat(end),
@@ -29,6 +29,7 @@ class Event:
             "summary": self.title,
             "start": {"dateTime": self.start.isoformat(), "timeZone": "Europe/Madrid"},
             "end": {"dateTime": self.end.isoformat(), "timeZone": "Europe/Madrid"},
+            "draft": self.source == "draft"
         }
 
 
@@ -51,7 +52,9 @@ class Calendar:
             with open(filename, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 for e in data:
-                    self.add_event(Event.from_dict(e, source=self.source))
+                    ev = Event.from_dict(e, source=self.source)
+                    if ev:
+                        self.add_event(ev)
         except FileNotFoundError:
             pass
 
