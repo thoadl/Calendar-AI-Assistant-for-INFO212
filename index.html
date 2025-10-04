@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>AI Calendar Assistant - Prototipo</title>
+  <title>AI Calendar Assistant - Prototype</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,13 +12,13 @@
       <div class="logo">
         <div class="dot"></div>
         <div>
-          <strong>AI Calendar Assistant</strong><br><small style="color:var(--muted)">Prototipo — versión simple</small>
+          <strong>AI Calendar Assistant</strong><br><small style="color:var(--muted)">Prototype — simple version</small>
         </div>
       </div>
       <div class="controls">
-        <div style="color:var(--muted);font-size:14px">Semana: 7 - 13 Sep 2025</div>
-        <button class="btn ghost">Perfil</button>
-        <button class="btn">Conectar calendario</button>
+        <div style="color:var(--muted);font-size:14px">Week: 7 - 13 Sep 2025</div>
+        <button class="btn ghost">Profile</button>
+        <button class="btn">Connect calendar</button>
       </div>
     </header>
 
@@ -26,82 +26,81 @@
       <section class="calendar-card">
         <div class="calendar-header">
           <div>
-            <strong>Vista semanal</strong>
-            <div style="font-size:13px;color:var(--muted)">Arrastra tareas desde la derecha al día deseado</div>
+            <strong>Weekly View</strong>
+            <div style="font-size:13px;color:var(--muted)">Drag tasks from the right to the desired day</div>
           </div>
           <div class="view-toggle">
-            <button class="btn ghost" onclick="toggleView('day')">Día</button>
-            <button class="btn" onclick="toggleView('week')">Semana</button>
-            <button class="btn ghost" onclick="toggleView('month')">Mes</button>
+            <button class="btn ghost" onclick="toggleView('day')">Day</button>
+            <button class="btn" onclick="toggleView('week')">Week</button>
+            <button class="btn ghost" onclick="toggleView('month')">Month</button>
           </div>
         </div>
 
         <div class="week-grid" id="weekGrid">
-          <div class="day" data-day="Lunes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Lunes</h4>
-            <div class="slot" data-type="study">09:00 - 11:00 • Estudio: Matemáticas</div>
-            <div class="slot work">13:00 - 16:00 • Trabajo</div>
+          <div class="day" data-day="Monday">
+            <h4>Monday</h4>
+            <div class="slot" data-type="study">09:00 - 11:00 • Study: Mathematics</div>
+            <div class="slot work">13:00 - 16:00 • Work</div>
           </div>
 
-          <div class="day" data-day="Martes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Martes</h4>
-            <div class="slot personal">18:00 - 20:00 • Cita personal</div>
+          <div class="day" data-day="Tuesday">
+            <h4>Tuesday</h4>
+            <div class="slot personal">18:00 - 20:00 • Personal appointment</div>
           </div>
 
-          <div class="day" data-day="Miércoles" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Miércoles</h4>
-
+          <div class="day" data-day="Wednesday">
+            <h4>Wednesday</h4>
           </div>
 
-          <div class="day" data-day="Jueves" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Jueves</h4>
+          <div class="day" data-day="Thursday">
+            <h4>Thursday</h4>
           </div>
 
-          <div class="day" data-day="Viernes" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Viernes</h4>
-            <div class="slot" data-type="exam">10:00 - 12:00 • Examen</div>
+          <div class="day" data-day="Friday">
+            <h4>Friday</h4>
+            <div class="slot" data-type="exam">10:00 - 12:00 • Exam</div>
           </div>
 
-          <div class="day" data-day="Sábado" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Sábado</h4>
+          <div class="day" data-day="Saturday">
+            <h4>Saturday</h4>
           </div>
 
-          <div class="day" data-day="Domingo" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event)">
-            <h4>Domingo</h4>
-            <div class="slot personal">Todo el día • Descanso</div>
+          <div class="day" data-day="Sunday">
+            <h4>Sunday</h4>
+            <div class="slot personal">All day • Rest</div>
           </div>
         </div>
 
         <div class="footer-suggest">
-          <div style="font-size:13px;color:var(--muted)">Sugerencias del asistente: 1 conflicto detectado</div>
+          <div style="font-size:13px;color:var(--muted)">Assistant suggestions: 1 conflict detected</div>
           <div>
-            <button class="btn ghost" onclick="showSuggestion()">Ver sugerencia</button>
+            <button class="btn ghost" onclick="showSuggestion()">View suggestion</button>
           </div>
         </div>
       </section>
 
       <aside>
         <div class="tasks">
-          <h3>Tareas pendientes</h3>
+          <h3>Pending Tasks</h3>
           <div class="task-list" id="taskList">
-            <!-- tareas generadas -->
+            <!-- generated tasks -->
           </div>
 
           <div class="add-form">
-            <input id="taskTitle" placeholder="Nombre tarea" />
+            <input id="taskTitle" placeholder="Task name" />
             <select id="taskType">
-              <option value="study">Estudio</option>
-              <option value="work">Trabajo</option>
+              <option value="study">Study</option>
+              <option value="work">Work</option>
               <option value="personal">Personal</option>
             </select>
-            <button class="btn" onclick="addTask()">+ Añadir</button>
+            <button class="btn" onclick="addTask()">+ Add</button>
           </div>
         </div>
 
         <div class="suggestions">
-          <h3>Sugerencias</h3>
+          <h3>Suggestions</h3>
           <div id="suggestionBox">
-            <div style="font-size:13px;color:var(--muted)">Ninguna sugerencia activa.</div>
+            <div style="font-size:13px;color:var(--muted)">No active suggestions.</div>
           </div>
         </div>
       </aside>
@@ -110,20 +109,19 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // hacer cada slot arrastrable
+      // make each slot draggable
       document.querySelectorAll('.slot').forEach(slot => {
         slot.setAttribute('draggable', 'true');
       });
 
       let draggedSlot = null;
 
-      // Arrastrar los slots
+      // Drag slots
       document.addEventListener('dragstart', e => {
         const slot = e.target.closest('.slot');
         if (!slot) return;
         draggedSlot = slot;
         slot.classList.add('dragging');
-        // necesario para algunos navegadores
         if (e.dataTransfer) {
           e.dataTransfer.setData('text/plain', ''); 
           e.dataTransfer.effectAllowed = 'move';
@@ -137,7 +135,7 @@
         draggedSlot = null;
       });
 
-      // Manejar drop en los días
+      // Handle drop on days
       document.querySelectorAll('.day').forEach(day => {
         day.addEventListener('dragover', e => {
           e.preventDefault();
@@ -156,7 +154,7 @@
         });
       });
 
-      // Toggle vista
+      // Toggle view
       window.toggleView = function(view) {
         const grid = document.getElementById('weekGrid');
         if (!grid) return;
