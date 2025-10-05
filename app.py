@@ -22,7 +22,7 @@ def get_events():
 
 @app.post("/draft/add")
 def add_event():
-    """Añade un evento al calendario draft"""
+    """Adds event to draft"""
     data = request.json
     # calcular duración en minutos si se dan start y end completos
     if "end" in data:
@@ -73,7 +73,7 @@ def commit():
 def discard():
     """Borra todos los drafts"""
     calendar_manager.draft_calendar.clear()
-    if os.path.exists(calendar_manager.draft_calendar.source):
+    if os.path.exists(calendar_manager.draft_file):
         os.remove(calendar_manager.draft_file)
     return jsonify({"status": "discarded"})
 
@@ -81,13 +81,22 @@ def discard():
 @app.get("/preview")
 def preview():
     """Devuelve preview de eventos y conflictos"""
-    real = [ev.to_dict() | {"draft": False} for ev in calendar_manager.real_calendar.events]
-    draft = [ev.to_dict() | {"draft": True} for ev in calendar_manager.draft_calendar.events]
-    conflicts = calendar_manager.find_all_overlaps()
+    # eventos reales y draft
+    real = [ev.to_dict() | {"draft": False, "conflict": False} for ev in calendar_manager.real_calendar.events]
+    draft = [ev.to_dict() | {"draft": True, "conflict": False} for ev in calendar_manager.draft_calendar.events]
+
+    # conflictos
+    overlaps = calendar_manager.find_all_overlaps()
+    for (e1, e2) in overlaps:
+        # buscar los eventos completos por título y fuente y marcar conflicto
+        for ev in real + draft:
+            if (ev["summary"], "real" if not ev["draft"] else "draft") == e1 or \
+               (ev["summary"], "real" if not ev["draft"] else "draft") == e2:
+                ev["conflict"] = True
+
     return jsonify({
         "real": real,
-        "draft": draft,
-        "conflicts": conflicts
+        "draft": draft
     })
 
 

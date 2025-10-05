@@ -12,6 +12,7 @@ class Event:
         self.end = end
         self.source = source
 
+    @staticmethod
     def from_dict(data: dict, source: str = "draft"):
         """Create an Event object from a JSON/dict representation"""
         start = data["start"].get("dateTime") or data["start"].get("date")
@@ -130,10 +131,17 @@ class CalendarManager:
         """Push draft events into Google Calendar API"""
         for ev in self.draft_calendar.events:
             service.events().insert(calendarId="primary", body=ev.to_dict()).execute()
+            # mover a real
+            ev.source = "real"
+            self.real_calendar.add_event(ev)
+
         # clear draft after pushing
         self.draft_calendar.clear()
         if os.path.exists(self.draft_file):
             os.remove(self.draft_file)
+
+        # opcional: guardar real localmente
+        self.real_calendar.save_to_file(self.real_file)
 
     def find_all_overlaps(self) -> list[tuple]:
         """Find overlaps between real and draft calendars"""

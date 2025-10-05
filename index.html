@@ -281,27 +281,29 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function paintEvent(ev, source) {
-    const dayName = new Date(ev.start).toLocaleDateString("en-US", { weekday: "long" });
-    const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
+    const start = ev.start.dateTime || ev.start.date; // siempre string
+    const end = ev.end.dateTime || ev.end.date;
+
+    const dayEl = document.querySelector(`.day[data-date="${start.slice(0,10)}"]`);
     if (!dayEl) return;
-    
+
+    // create slot
     const slot = document.createElement("div");
     slot.classList.add("slot");
+    slot.setAttribute("draggable", "true");
 
-    // 👇 decide la clase según flags
     if (ev.draft) {
-      slot.classList.add("draft");
+        slot.classList.add("draft");
     } else {
-      slot.classList.add("real");
+        slot.classList.add("real");
     }
 
+    // mark conflicts
     if (ev.conflict) {
-      slot.classList.add("conflict");
+        slot.classList.add("conflict");
     }
 
-    const start = ev.start.dateTime || ev.start.date;
-    const end = ev.end.dateTime || ev.end.date;
-    slot.textContent = `${start.substring(11,16)} - ${end.substring(11,16)} • ${ev.summary}`;    
+    slot.textContent = `${start.substring(11,16)} - ${end.substring(11,16)} • ${ev.summary}`;
     dayEl.appendChild(slot);
   }
 
@@ -328,26 +330,31 @@ document.addEventListener('DOMContentLoaded', () => {
 // Cargar eventos
 async function loadEvents() {
     try {
-      const res = await fetch("http://localhost:8000/events");
-      const events = await res.json();
+        const res = await fetch("http://localhost:8000/events");
+        const events = await res.json();
 
-      // Limpiar slots
-      document.querySelectorAll(".day").forEach(day => {
-        day.querySelectorAll(".slot").forEach(s => s.remove());
-      });
+        // limpiar slots existentes
+        document.querySelectorAll(".day").forEach(day =>
+            day.querySelectorAll(".slot").forEach(s => s.remove())
+        );
 
-      // Añadir eventos
-      events.forEach(ev => {
-        const dayName = getDayName(ev.start);
-        const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
-        if (dayEl) {
-          const slot = document.createElement("div");
-          slot.className = "slot " + (ev.draft ? "draft" : "real");
-          slot.textContent = `${ev.start.slice(11,16)} - ${ev.end.slice(11,16)} • ${ev.title}`;
-          slot.setAttribute("draggable", "true");
-          dayEl.appendChild(slot);
-        }
-      });
+        // añadir eventos
+        events.forEach(ev => {
+            const start = ev.start.dateTime || ev.start.date;
+            const end = ev.end.dateTime || ev.end.date;
+            const dayEl = document.querySelector(`.day[data-date="${start.slice(0,10)}"]`);
+            if (!dayEl) return;
+
+            const slot = document.createElement("div");
+            slot.classList.add("slot");
+            slot.setAttribute("draggable", "true");
+
+            if (ev.draft) slot.classList.add("draft");
+            else slot.classList.add("real");
+
+            slot.textContent = `${start.substring(11,16)} - ${end.substring(11,16)} • ${ev.summary}`;
+            dayEl.appendChild(slot);
+        });
     } catch (err) {
       console.error("Error loading events:", err);
     }
