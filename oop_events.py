@@ -130,8 +130,9 @@ class CalendarManager:
     def apply_changes(self, service):
         """Push draft events into Google Calendar API"""
         for ev in self.draft_calendar.events:
-            service.events().insert(calendarId="primary", body=ev.to_dict()).execute()
-            # mover a real
+            if service:
+                service.events().insert(calendarId="primary", body=ev.to_dict()).execute()            # mover a real
+            
             ev.source = "real"
             self.real_calendar.add_event(ev)
 
@@ -140,7 +141,7 @@ class CalendarManager:
         if os.path.exists(self.draft_file):
             os.remove(self.draft_file)
 
-        # opcional: guardar real localmente
+        # save calendar
         self.real_calendar.save_to_file(self.real_file)
 
     def find_all_overlaps(self) -> list[tuple]:

@@ -352,6 +352,8 @@ async function loadEvents() {
             if (ev.draft) slot.classList.add("draft");
             else slot.classList.add("real");
 
+            if (ev.conflict) slot.classList.add("conflict");
+
             slot.textContent = `${start.substring(11,16)} - ${end.substring(11,16)} • ${ev.summary}`;
             dayEl.appendChild(slot);
         });

@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-import os, json, datetime
+import os, json
+from datetime import datetime
 from flask_cors import CORS
 from GoogleCalendarSync import GoogleCalendarSync
 from oop_events import CalendarManager  # tu clase con Event y CalendarManager
@@ -24,23 +25,19 @@ def get_events():
 def add_event():
     """Adds event to draft"""
     data = request.json
-    # calcular duración en minutos si se dan start y end completos
-    if "end" in data:
-        start_dt = datetime.fromisoformat(data["start"])
-        end_dt = datetime.fromisoformat(data["end"])
-        duration = int((end_dt - start_dt).total_seconds() // 60)
-        start_time = start_dt.strftime("%H:%M")
-        date = start_dt.strftime("%Y-%m-%d")
-    else:
-        date = data["start"][:10]
-        start_time = data["start"][11:16]
-        duration = data.get("duration", 60)  # default 1 hora
+    data = request.json
+    title = data.get("title", "Untitled")
+    start_dt = datetime.fromisoformat(data["start"])
+    end_dt = datetime.fromisoformat(data["end"])
+    duration = int((end_dt - start_dt).total_seconds() // 60)
+    date = start_dt.strftime("%Y-%m-%d")
+    start_time = start_dt.strftime("%H:%M")
 
     event = calendar_manager.create_event(
         date=date,
         start_time=start_time,
         duration_minutes=duration,
-        title=data["summary"]
+        title=title
     )
     calendar_manager.save_draft_event(event)
     return jsonify({"status": "ok"})
@@ -48,23 +45,11 @@ def add_event():
 
 @app.post("/commit")
 def commit():
-    """Aplica los cambios: sube drafts a Google Calendar y los mueve a real"""
+    """Applies changes"""
     calendar_manager.apply_changes(sync.service)
 
-    # guardar real localmente
-    all_real = [ev.to_dict() for ev in calendar_manager.real_calendar.events]
-    if os.path.exists(calendar_manager.real_file):
-        try:
-            with open(calendar_manager.real_file, "r", encoding="utf-8") as f:
-                old_real = json.load(f)
-        except json.JSONDecodeError:
-            old_real = []
-    else:
-        old_real = []
-
-    all_real = old_real + all_real
     with open(calendar_manager.real_file, "w", encoding="utf-8") as f:
-        json.dump(all_real, f, indent=2, ensure_ascii=False)
+        json.dump([ev.to_dict() for ev in calendar_manager.real_calendar.events], f, indent=2, ensure_ascii=False)
 
     return jsonify({"status": "committed"})
 
