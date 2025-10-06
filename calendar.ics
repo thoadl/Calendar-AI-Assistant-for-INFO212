@@ -1,0 +1,2216 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:thomas.aadlandsvik@gmail.com
+X-WR-TIMEZONE:Europe/Oslo
+BEGIN:VEVENT
+DTSTART:20220224T120000Z
+DTEND:20220224T124500Z
+DTSTAMP:20250919T070649Z
+ORGANIZER;CN=katrine.grotle@adecco.no:mailto:katrine.grotle@adecco.no
+UID:040000008200E00074C5B7101A82E00800000000A0C85A82BC28D801000000000000000
+ 01000000019F893D0FFEE8549B66DDB29E7B7B29F
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+ATTENDEE;CUTYPE=RESOURCE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ADE 
+ NO BER MTG RM ALREK 4P CAL;X-NUM-GUESTS=0:mailto:adenobermtgrmalrek4pcal@ad
+ ecco.no
+CREATED:20220223T125350Z
+DESCRIPTION:Hei\,\n\nVelkommen til intervju hos Adecco på Teams i morgen kl
+  13:00\n\nFør intervjuet ønsker jeg at du gjør følgende:\n\n  1.  Last opp 
+ alle dine attester og vitnemål under «documents» på din profil på adecco.no
+ \n  2.  Ha klar to referanser vi kan kontakte (min. 1 må være overordnet og
+  begge skal være profesjonelle)\n  3.  Ha klart ID med bilde (bankkort elle
+ r pass)\n\nJeg ser frem til å treffe deg!\n\nVennlig hilsen\n\nKatrine Grot
+ le\nHR - Konsulent\n\nAdecco Norge\nFinance and Office Bergen\n\nFabrikkgat
+ en 6\, 5059 Bergen\nMobil +47 995 00 316\nTelefon +47 23 29 00 00\nkatrine.
+ grotle@adecco.no<mailto:katrine.grotle@adecco.no>\nwww.adecco.no<https://eu
+ r02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.adecco.no%2F&dat
+ a=04%7C01%7CKatrine.Grotle%40adecco.no%7C9426b62e694d46a260fe08d8f8f9ce5d%7
+ Cf30ac191b8b445f29a9be5466cb90c2f%7C0%7C0%7C637533099234514588%7CUnknown%7C
+ TWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0
+ %3D%7C1000&sdata=X9uGVVcFv7aQrXs4%2Bbm3VPS4r4iO3rkhk6pd7R0PQJM%3D&reserved=
+ 0>\n\n\n[cid:image001.png@01D828BC.C8BECDA0]\n\nThis email and any files tr
+ ansmitted with it are confidential and intended solely for the use of the i
+ ndividual or entity to whom they are addressed. It may contain legally priv
+ ileged information\, and may not be disclosed to anyone else. If you have r
+ eceived this email in error\, please notify the sender and delete all copie
+ s from your system. Any opinion expressed in this email may be personal to 
+ the author\, and may not necessarily reflect the opinions of the Company or
+  its affiliates\n\n\n\n____________________________________________________
+ ____________________________\nMicrosoft Teams-møte\nBli med fra datamaskin 
+ eller mobilapp\nKlikk her for å delta i møtet<https://teams.microsoft.com/l
+ /meetup-join/19%3ameeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4%
+ 40thread.v2/0?context=%7b%22Tid%22%3a%22f30ac191-b8b4-45f2-9a9b-e5466cb90c2
+ f%22%2c%22Oid%22%3a%2222da23f8-1e87-4525-aace-b415e4751f4c%22%7d>\nBli med 
+ på en videokonferanseenhet\nadeccogroup@m.webex.com<mailto:adeccogroup@m.we
+ bex.com>\nVideokonferanse-ID: 128 858 950 9\nAlternative VTC-instruksjoner<
+ https://www.webex.com/msteams?confid=1288589509&tenantkey=adeccogroup&domai
+ n=m.webex.com>\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Møtealternat
+ iver<https://teams.microsoft.com/meetingOptions/?organizerId=22da23f8-1e87-
+ 4525-aace-b415e4751f4c&tenantId=f30ac191-b8b4-45f2-9a9b-e5466cb90c2f&thread
+ Id=19_meeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4@thread.v2&me
+ ssageId=0&language=nb-NO>\n________________________________________________
+ ________________________________\n\n
+LAST-MODIFIED:20220223T131444Z
+LOCATION:Microsoft Teams-møte\; ADE NO BER MTG RM ALREK 4P CAL\, ADE NO BER
+  MTG RM ALREK 4P CAL
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interjvu Adecco - Thomas Ådlandsvik
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.png:https://mail.google.com/?view=att&th=17f26a538
+ e0f2e53&attid=0.1&disp=attd&zw
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZjI0MzI4ODAtNjU2ZS00YjJ
+ lLWE5YWItNjhkYWE2NjY3MWI4@thread.v2"\,"private":true\,"type":0\,"mid":0\,"r
+ id":0\,"uid":null}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:406267878
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/f30ac191-b8b4-45f2-9a9b-e5466cb90c2f/22da23f8-1e87-4525-aace-b4
+ 15e4751f4c/19_meeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4@thre
+ ad.v2/0
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams-møte"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Location
+ Uri" : "" }\, { "DisplayName" : "ADE NO BER MTG RM ALREK 4P CAL"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 5\, "Unresolved" : false\, "Location
+ Uri" : "ADENOBERMTGRMALREK4PCAL@adecco.no" } ]
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZjI0MzI4ODAtNjU2ZS00YjJlLWE5YWItNjhkYWE2NjY3MWI4%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22f30ac191-b8b4-45f2-9a9b-e5466cb90c2f%22%2c%22Oid
+ %22%3a%2222da23f8-1e87-4525-aace-b415e4751f4c%22%7d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220321T120000Z
+DTEND:20220321T122000Z
+DTSTAMP:20250919T070649Z
+ORGANIZER;CN=veronica@acos.no:mailto:veronica@acos.no
+UID:040000008200E00074C5B7101A82E00800000000B0251A9FA73AD801000000000000000
+ 01000000092D08D952A889848B6D39DFEE1895FFB
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ha
+ nne Therese Dahle;X-NUM-GUESTS=0:mailto:handa@acos.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Mo
+ nica Gudmundsen;X-NUM-GUESTS=0:mailto:monica@acos.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CREATED:20220318T094859Z
+DESCRIPTION:Hei Thomas\,\n\nViser til hyggelig telefonsamtale\, og bekrefte
+ r videointervju mandag 21. mars kl. 13:00\nHer vil du møte Monica Gudmundse
+ n\, direktør for kundesenteret i ACOS\, og Hanne Therese Dahle\, leder for 
+ supportsenteret.\n\nIntervjuet blir over Teams\, og du kan benytte lenken u
+ nder til å koble deg opp.\n\nIkke nøl med å ta kontakt om det er noe du lur
+ er på før vårt møte.\nVi ser frem til å møte deg!\n\n\n\nMed vennlig hilsen
+ \nVeronica Gjøvåg\n\nHR-konsulent\n\nveronica@acos.no<mailto:veronica@acos.
+ no> | 92 66 29 12\n\n[cid:image001.png@01D83AB5.A79D8700]<http://acos.no/>\
+ n\n\n\n ___________________________________________________________________
+ _____________\nMicrosoft Teams-møte\nBli med fra datamaskin eller mobilapp\
+ nKlikk her for å delta i møtet<https://teams.microsoft.com/l/meetup-join/19
+ %3ameeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx%40thread.v2/0?c
+ ontext=%7b%22Tid%22%3a%22399ec9ae-8b70-40ac-a820-7339d9546e2c%22%2c%22Oid%2
+ 2%3a%2272dea732-2548-4d36-a108-3ecc8323dda0%22%7d>\nBli med på en videokonf
+ eranseenhet\nteams@acos.no<mailto:teams@acos.no>\nVideokonferanse-ID: 127 8
+ 99 675 5\nAlternative VTC-instruksjoner<https://pexip.me/teams/acos.no/1278
+ 996755>\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Møtealternativer<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=72dea732-2548-4d36-a1
+ 08-3ecc8323dda0&tenantId=399ec9ae-8b70-40ac-a820-7339d9546e2c&threadId=19_m
+ eeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx@thread.v2&messageId
+ =0&language=nb-NO>\n_______________________________________________________
+ _________________________\n\n
+LAST-MODIFIED:20220321T104519Z
+LOCATION:Microsoft Teams-møte
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Invitasjon til videointervju
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.png:https://mail.google.com/?view=att&th=17f9c6e36
+ 3aeb505&attid=0.1&disp=attd&zw
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_OGQ1MWFmZTMtOTVlNy00ZWY
+ 5LWFhMjgtZjIzMGFkNzI1ZmEx@thread.v2"\,"private":true\,"type":0\,"mid":0\,"r
+ id":0\,"uid":null}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:756168678
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/399ec9ae-8b70-40ac-a820-7339d9546e2c/72dea732-2548-4d36-a108-3e
+ cc8323dda0/19_meeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx@thre
+ ad.v2/0
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:veronica@acos.no\;gruu\;opaque=a
+ pp:conf:focus:id:teams:2:0!19:meeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzM
+ GFkNzI1ZmEx-thread.v2!72dea73225484d36a1083ecc8323dda0!399ec9ae8b7040aca820
+ 7339d9546e2c
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams-møte"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Location
+ Uri" : "" } ]
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_OGQ1MWFmZTMtOTVlNy00ZWY5LWFhMjgtZjIzMGFkNzI1ZmEx%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22399ec9ae-8b70-40ac-a820-7339d9546e2c%22%2c%22Oid
+ %22%3a%2272dea732-2548-4d36-a108-3ecc8323dda0%22%7d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220421T100000Z
+DTEND:20220421T110000Z
+DTSTAMP:20250919T070649Z
+ORGANIZER;CN=monica@acos.no:mailto:monica@acos.no
+UID:040000008200E00074C5B7101A82E0080000000000C7F426CD4DD801000000000000000
+ 01000000095D5CF73E442A9469D9C285393A2818A
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ha
+ nne Therese Dahle;X-NUM-GUESTS=0:mailto:handa@acos.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0:mailto:thomas.aadlandsvik@gmail.com
+CREATED:20220411T155611Z
+DESCRIPTION:Hei.\n\nVi ønsker å bli enda bedre kjent med deg og ønsker å in
+ vitere deg til en prat i våre lokaler i Trollhaugmyra 15 på Straume<https:/
+ /goo.gl/maps/JewEhz2wzrFN4NSV9> på torsdag 21. april kl. 12:00.\n\nDersom d
+ u ikke allerede har lastet opp vitnemål og attester setter vi pris på om du
+  laster disse opp i Webcruiter i forkant slik at vi rekker å se over eventu
+ elle papirer.\n\nVelkommen skal du være!\n\n\nMed vennlig hilsen \n\nMonica
+  Gudmundsen\nDirektør Kundesenter\nmonica@acos.no<mailto:monica@acos.no> | 
+ 92 25 66 53\n\n[B70CB70B]\n\n
+LAST-MODIFIED:20221008T181851Z
+LOCATION:Trollhaugmyra 15\, 3. etg
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Invitasjon til intervju
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.png:https://mail.google.com/?view=att&th=180195706
+ e936913&attid=0.1&disp=attd&zw
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Trollhaugmyra 15\, 3. etg"\,"Locatio
+ nAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,
+ "LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:1116424166
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230207T162800Z
+DTEND:20230207T162900Z
+DTSTAMP:20250919T070649Z
+UID:61hjcdpi64s62b9g6dj6ab9kc4sm2bb268o3cb9mcoo3cdr4ckp38dj664@google.com
+CREATED:20230207T162855Z
+DESCRIPTION:hjem
+LAST-MODIFIED:20230207T162855Z
+LOCATION:60.29792275\,5.32816326
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:hjem
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230207T171500Z
+DTEND:20230207T171600Z
+DTSTAMP:20250919T070649Z
+UID:6os6acb4c4qjabb66hj36b9k6gp3abb26ssmab9icoqj8dpn68sj4dpo70@google.com
+CREATED:20230207T171553Z
+LAST-MODIFIED:20230207T171553Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Heime
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230416T110000Z
+DTEND:20230416T115000Z
+DTSTAMP:20250919T070649Z
+UID:7l39j982qqiu4md7e3kkuvqnur@google.com
+CREATED:20230413T103225Z
+DESCRIPTION:Marineholmen på sjøen\n\nView/Change Appointment:\nhttps://app.
+ squarespacescheduling.com/schedule.php?owner=21781567&id%5B%5D=ca5081e96eb8
+ 40e4110eb7a8b1e3e67c&action=appt\n\n(created by Squarespace Scheduling)\nAc
+ uityID=1022177263\nGoogle
+LAST-MODIFIED:20230413T103225Z
+LOCATION:Marineholmen på sjøen
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:3-4 personer (Heit Bergen Sauna 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240306T121500Z
+DTEND:20240306T124500Z
+DTSTAMP:20250919T070649Z
+ORGANIZER;CN=madelen.theres.bjordal@forsvarsbygg.no:mailto:madelen.theres.b
+ jordal@forsvarsbygg.no
+UID:040000008200E00074C5B7101A82E00800000000D07B9AD7476EDA01000000000000000
+ 010000000D8938CF93D5B6D4D9E3861BB1BE37975
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0:mailto:frode.grottveit@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0:mailto:hans-jorgen.brenna@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:madelen.theres.bjordal@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="S
+ undland, Stein Atle";X-NUM-GUESTS=0:mailto:stein.atle.sundland@forsvarsbygg
+ .no
+CLASS:PRIVATE
+CREATED:20240305T131507Z
+DESCRIPTION:Hei!\n\n\n\nBekrefter med dette ditt førstegangsintervju til st
+ illingen IT konsulent elektronisk sikring i Forsvarsbygg\, onsdag 6. mars k
+ l 13:15. I første runde setter vi av 30 minutter til intervjuet med fokus p
+ å motivasjon\, arbeidserfaring og utdanning.\n\nLenke til Teams finner du n
+ ederst i denne mailen.\n\n\n\nVi ser frem til å bli bedre kjent med deg i i
+ ntervjuet!\n\nMed vennlig hilsen\nMadelen Theres Bjørdal\nHR Rådgiver\nRess
+ urssenteret\n\n[cid:image001.png@01DA6F06.92750380]\n\nMobil: +47 932 24 80
+ 1\nE- post: madelen.theres.bjordal@forsvarsbygg.no<mailto:madelen.theres.bj
+ ordal@forsvarsbygg.no>\nInternett: www.forsvarsbygg.no<http://www.forsvarsb
+ ygg.no/>\n\nBesøksadresse: Grev Wedels Plass 5\nPostadresse: Postboks 405 S
+ entrum\, 0103 Oslo\nSentralbord: 468 70 400\n\n____________________________
+ ____________________________________________________\nMicrosoft Teams-møte\
+ nBli med fra datamaskinen\, mobilappen eller romenheten\nKlikk her for å bl
+ i med i møtet<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDFkMm
+ U1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZDgxMDg5%40thread.v2/0?context=%7b%22Tid%
+ 22%3a%22ea445713-00a8-495f-aafa-26062e969e4f%22%2c%22Oid%22%3a%2251879eab-a
+ fac-4543-8456-8515288eee77%22%7d>\nMøte-ID: 367 242 737 648\nPassord: GtA9r
+ s\nLast nedTeams<https://www.microsoft.com/en-us/microsoft-teams/download-a
+ pp> | Join on the web<https://www.microsoft.com/microsoft-teams/join-a-meet
+ ing>\nEller ring inn (bare lyd)\n+47 21 40 41 73\,\,846154969#<tel:+4721404
+ 173\,\,846154969#>   Norway\, Oslo\nTelefonkonferanse-ID: 846 154 969#\nFin
+ n et lokalt nummer<https://dialin.teams.microsoft.com/0142a0ab-4408-4663-aa
+ d0-d275a1819bc0?id=846154969> | Tilbakestill PIN-kode<https://dialin.teams.
+ microsoft.com/usp/pstnconferencing>\nForsvarsbygg IT brukerstøtte 468 68 70
+ 0\nFinn ut mer<https://aka.ms/JoinTeamsMeeting> | Hjelp<https://forsvarsbyg
+ g.sharepoint.com/sites/selvhjelpsportal-m365/SitePages/Landingsside_Teams.a
+ spx> | Møtealternativer<https://teams.microsoft.com/meetingOptions/?organiz
+ erId=51879eab-afac-4543-8456-8515288eee77&tenantId=ea445713-00a8-495f-aafa-
+ 26062e969e4f&threadId=19_meeting_NDFkMmU1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZD
+ gxMDg5@thread.v2&messageId=0&language=nb-NO> | Juridisk<https://forsvarsbyg
+ g.no/no/om-oss/personvern>\n_______________________________________________
+ _________________________________\n\n
+LAST-MODIFIED:20240305T183127Z
+LOCATION:Microsoft Teams-møte
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Førstegangsintervju\; Thomas Ådlandsvik
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.png:https://mail.google.com/?view=att&th=18e0ec0fc
+ 284ee22&attid=0.1&disp=attd&zw
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NDFkMmU1MTYtYmE4MC00MjZ
+ mLThkMmYtMjMwMWI2ZDgxMDg5@thread.v2"\,"private":true\,"type":0\,"mid":0\,"r
+ id":0\,"uid":null}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:518338536
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/ea445713-00a8-495f-aafa-26062e969e4f/51879eab-afac-4543-8456-85
+ 15288eee77/19_meeting_NDFkMmU1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZDgxMDg5@thre
+ ad.v2/0
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams-møte"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Location
+ Uri" : "" } ]
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NDFkMmU1MTYtYmE4MC00MjZmLThkMmYtMjMwMWI2ZDgxMDg5%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22ea445713-00a8-495f-aafa-26062e969e4f%22%2c%22Oid
+ %22%3a%2251879eab-afac-4543-8456-8515288eee77%22%7d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240321T080000Z
+DTEND:20240321T092500Z
+DTSTAMP:20250919T070649Z
+ORGANIZER;CN=madelen.theres.bjordal@forsvarsbygg.no:mailto:madelen.theres.b
+ jordal@forsvarsbygg.no
+UID:040000008200E00074C5B7101A82E00800000000E01CCAA3D56FDA01000000000000000
+ 010000000735A7302498FB641A33E5B4D86CC8A34
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="S
+ olberg, Lars Oddvar";X-NUM-GUESTS=0:mailto:lars.oddvar.solberg@forsvarsbygg
+ .no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0:mailto:frode.grottveit@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0:mailto:hans-jorgen.brenna@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:madelen.theres.bjordal@forsvarsbygg.no
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="S
+ undland, Stein Atle";X-NUM-GUESTS=0:mailto:stein.atle.sundland@forsvarsbygg
+ .no
+CLASS:PRIVATE
+CREATED:20240315T110640Z
+DESCRIPTION:Hei Thomas\,\n\nTakk for en hyggelig telefonsamtale. Du gjorde 
+ som sagt et godt inntrykk og er en av kandidatene til stillingen IT konsule
+ nt elektronisk sikring som vi ønsker å bli bedre kjent med.\nBekrefter med 
+ dette ditt andregangsintervju torsdag 21. mars kl 09:00. Vi setter av ca. 1
+ \,5 time til intervjuet med oppmøtested på Briggen befalmesse. Adresse\; Ha
+ akonsvernveien 90\, 5173 Loddefjord. Meld deg inn som besøkende i skranken\
+ , så henter vi deg når vi er klare.\n\nI forbindelse med intervjuet ønsker 
+ vi at du gjennomfører en personlighetstest. Denne vil kunne si litt om din 
+ yrkesrelaterte personlighetsprofil. Lenke og mer informasjon om gjennomføri
+ ng kommer i separat mail.\n\nTa kontakt ved spørsmål. Vi gleder oss til å b
+ li bedre kjent med deg! 😊\n\nMed vennlig hilsen\nMadelen Theres Bjørdal\nH
+ R Rådgiver\nRessurssenteret\n\n[cid:image001.png@01DA76D0.404C2C60]\n\nMobi
+ l: +47 932 24 801\nE- post: madelen.theres.bjordal@forsvarsbygg.no<mailto:m
+ adelen.theres.bjordal@forsvarsbygg.no>\nInternett: www.forsvarsbygg.no<http
+ ://www.forsvarsbygg.no/>\n\nBesøksadresse: Grev Wedels Plass 5\nPostadresse
+ : Postboks 405 Sentrum\, 0103 Oslo\nSentralbord: 468 70 400\n\n
+LAST-MODIFIED:20240315T121923Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Andregangsintervju\; Thomas Ådlandsvik
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.png:https://mail.google.com/?view=att&th=18e41caf8
+ af4ce4e&attid=0.1&disp=attd&zw
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-LOCATIONS:[]
+X-MICROSOFT-CDO-OWNERAPPTID:382679016
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240429T143000Z
+DTEND:20240429T153000Z
+DTSTAMP:20250919T070649Z
+UID:64o64phl6tij8b9mckrm4b9k60s38bb26komcb9h65h6ccb2cphjccr4cg@google.com
+CREATED:20240429T093107Z
+LAST-MODIFIED:20240429T093107Z
+LOCATION:Sandslimarka 269
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Visning: Sandslimarka 269
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240419T060000Z
+DTEND:20240419T065500Z
+DTSTAMP:20250919T070649Z
+UID:7kukuqrfedlm2f9t10gfag0kk2vogtqfp8orahhn2v2a0jbn0haagilpo33jpl6tu0t0
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CLASS:PRIVATE
+CREATED:20240122T142543Z
+DESCRIPTION:Norwegian flight 604\nOslo OSL 8:00am (local time) - Bergen BGO
+  8:55am (local time)\n\nConfirmation number: O4GS3F
+LAST-MODIFIED:20241014T072849Z
+LOCATION:Oslo OSL
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flight to Bergen (DY 604)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240408T183000Z
+DTEND:20240408T192500Z
+DTSTAMP:20250919T070649Z
+UID:7kukuqrfedlm2f9t4tnkinl969oatoj23r5ff24trana00q4u5herkgf4cvms3fgnu60
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CLASS:PRIVATE
+CREATED:20240122T142543Z
+DESCRIPTION:Norwegian flight 653\nBergen BGO 8:30pm (local time) - Oslo OSL
+  9:25pm (local time)\n\nConfirmation number: O4GS3F
+LAST-MODIFIED:20241014T072849Z
+LOCATION:Bergen BGO
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flight to Oslo (DY 653)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240418T174500Z
+DTEND:20240418T223000Z
+DTSTAMP:20250919T070649Z
+UID:7kukuqrfedlm2f9thkdaa20u579pam9emv9vp3kf3m7oggq51r5040114n76uvvg2s60
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CLASS:PRIVATE
+CREATED:20240122T142543Z
+DESCRIPTION:Norwegian flight 1891\nKypros LCA 8:45pm (local time) - Oslo OS
+ L 12:30am (local time)\n\nConfirmation number: O4GS3F
+LAST-MODIFIED:20241014T072849Z
+LOCATION:Kypros LCA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flight to Oslo (DY 1891)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240409T042000Z
+DTEND:20240409T085500Z
+DTSTAMP:20250919T070649Z
+UID:7kukuqrfedlm2f9tjbrln9v9vc685q6u2am1c925r575t0e8k14f3oe1leknau2pue8g
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CLASS:PRIVATE
+CREATED:20240122T142543Z
+DESCRIPTION:Norwegian flight 1890\nOslo OSL 6:20am (local time) - Kypros LC
+ A 11:55am (local time)\n\nConfirmation number: O4GS3F
+LAST-MODIFIED:20241014T072849Z
+LOCATION:Oslo OSL
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flight to Kypros (DY 1890)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250426T135000Z
+DTEND:20250426T174500Z
+DTSTAMP:20250919T070649Z
+UID:t1hi64nmm1f2boj4koa6rjmb8o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;X-NUM-GUE
+ STS=0:mailto:thomas.aadlandsvik@gmail.com
+CLASS:PRIVATE
+CREATED:20250426T140809Z
+DESCRIPTION:Norwegian Air Shuttle flight 3390\nCopenhagen CPH 3:50pm (local
+  time) - Cyprus-Larnaca LCA 8:45pm (local time)\n\nConfirmation number: WKQ
+ 2CE
+LAST-MODIFIED:20250426T140810Z
+LOCATION:Copenhagen CPH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Flight to Cyprus-Larnaca (D8 3390)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250912T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-assignment-108631
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#assignment_108631
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Download the file Lab 2.pdf (in Mitt.uib -> Files -> Group Semi
+ nars (Labs) -> Lab 2 - [with Assignment 1] ).\n\nThere are some tasks for y
+ ou to complete\, and you need to answer all of them.\n\nFor that\, you need
+  to create a ZIP file that contains your answers (e.g.\, Python files) and 
+ submit it here in Mitt.uib before the deadline. This can be done during you
+ r group seminar (lab) or after. The file you submit should be named yournam
+ e_assignmentN.zip\n\nMore information may be provided by your TAs (seminar 
+ leaders) during your lab (group seminars).
+LAST-MODIFIED:20250905T104814Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Obligatory Assignment 1 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<p>Download the file <strong>Lab 2.pdf</strong
+ > (in <em>Mitt.uib -&gt\; Files -&gt\; Group Seminars (Labs) -&gt\; Lab 2 -
+  [with Assignment 1] </em>).</p>\n<p>There are some tasks for you to comple
+ te\, and you need to answer all of them.</p>\n<p>For that\, you need to cre
+ ate a ZIP file that contains your answers (e.g.\, Python files) and submit 
+ it here in <em>Mitt.uib</em> before the deadline. This can be done during y
+ our group seminar (lab) or after. The file you submit should be named <em>y
+ ourname_assignmentN.zip</em></p>\n<p>More information may be provided by yo
+ ur TAs (seminar leaders) during your lab (group seminars).</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250908T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-assignment-108718
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#assignment_108718
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:The submission of assignment 1 was set up incorrectly. Submit h
+ ere instead\, and please resubmit if you have already done so. \n\nBackgrou
+ nd: [Information about the compulsory assignments] (https://mitt.uib.no/cou
+ rses/53340/pages/information-about-the-compulsory-assignments)\n\nTasks:\n\
+ n* Group formation. Select a customer representative\, and perhaps a Scrum 
+ master.\n\n* Identify a problem you want to solve or an situation you want 
+ to improve.\n\n* Identify clearly who will be the users of the system\n\n* 
+ Describe 2-3 user stories per group member.\n\n* Perhaps describe one or mo
+ re use cases for complex stories (for example with exceptions).\n\n* Assess
+  the effort required to complete each user story.\n\n* Prioritise the user 
+ stories.\n\nSubmission:\n\n* Describe the outcome of each task:\n\n* Group 
+ members and roles\n\n* Project goal (problem to solve or situation to impro
+ ve)\n\n* System users\n\n* User stories (and use cases)\n\n* Estimated effo
+ rt per user story\n\n* Story prioritisation\n\n* Be brief. For example\, th
+ e problem/situation description can be a paragraph of 3-5 sentences. This i
+ s not a writing contest.\n\n* Submit a single PDF file. Use a file name tha
+ t clearly identifies the group members. Use a file name like this: Submissi
+ on1-EAndersen-FBoyake-GChedid-HDahl.pdf .
+LAST-MODIFIED:20250905T104814Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Assignment 1 (CORRECTED): Project planning and preparation [INFO212
+ ]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250917T081500Z
+DTEND:20250917T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150176
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2150176
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328849##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591313">##KADA-CANVAS-ID####1745328849##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251001T081500Z
+DTEND:20251001T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150186
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2150186
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328849##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591321">##KADA-CANVAS-ID####1745328849##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251015T081500Z
+DTEND:20251015T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150195
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2150195
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328849##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591325">##KADA-CANVAS-ID####1745328849##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251029T091500Z
+DTEND:20251029T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150199
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2150199
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328849##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591331">##KADA-CANVAS-ID####1745328849##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251105T091500Z
+DTEND:20251105T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150203
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2150203
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328850##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591332">##KADA-CANVAS-ID####1745328850##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251112T091500Z
+DTEND:20251112T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150207
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2150207
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328850##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591337">##KADA-CANVAS-ID####1745328850##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251119T091500Z
+DTEND:20251119T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150211
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2150211
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328850##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591338">##KADA-CANVAS-ID####1745328850##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T091500Z
+DTEND:20251126T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150216
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2150216
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328850##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591339">##KADA-CANVAS-ID####1745328850##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251203T091500Z
+DTEND:20251203T110000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150219
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=12&yea
+ r=2025#calendar_event_2150219
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328850##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591344">##KADA-CANVAS-ID####1745328850##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251022T081500Z
+DTEND:20251022T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150222
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2150222
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328849##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591327">##KADA-CANVAS-ID####1745328849##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250820T081500Z
+DTEND:20250820T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150225
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=08&yea
+ r=2025#calendar_event_2150225
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328848##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591270">##KADA-CANVAS-ID####1745328848##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250926T101500Z
+DTEND:20250926T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150230
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2150230
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592231">##KADA-CANVAS-ID####1756502844##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251010T101500Z
+DTEND:20251010T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150234
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2150234
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592256">##KADA-CANVAS-ID####1756502844##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250910T081500Z
+DTEND:20250910T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150237
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2150237
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Storetinget] (https://use.mazemap.com/?v=1&campu
+ ses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=215:108)\, [Laur
+ itz Meltzers hus (SV-bygget)] (https://link.mazemap.com/jI6wtOAC)\n\nFagper
+ son\n---------\n\n[Mehdi Elahi] (http://www.uib.no/user/uib/eme070)\n\nHend
+ elsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfr
+ a.\n\n##KADA-CANVAS-ID####1745328848##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Storetinget\, Lauritz Meltzers hus (SV-bygget)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=215:108">Storetinget</a>\, <a href="https://link.mazem
+ ap.com/jI6wtOAC">Lauritz Meltzers hus (SV-bygget)</a></div>\n<h3>Fagperson<
+ /h3>\n<div><a href="http://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div
+ >\n<br><hr>\n<p>Hendelsen blir automatisk generert og vedlikeholdt. Du kan 
+ ikke endre den herfra.</p>\n<div style="display: none\;" data-kada-canvas-i
+ d="591312">##KADA-CANVAS-ID####1745328848##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251017T101500Z
+DTEND:20251017T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150238
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2150238
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592265">##KADA-CANVAS-ID####1756502845##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251024T101500Z
+DTEND:20251024T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150241
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2150241
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592279">##KADA-CANVAS-ID####1756502845##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250822T101500Z
+DTEND:20250822T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150246
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=08&yea
+ r=2025#calendar_event_2150246
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502843##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592169">##KADA-CANVAS-ID####1756502843##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250829T101500Z
+DTEND:20250829T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150252
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=08&yea
+ r=2025#calendar_event_2150252
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592187">##KADA-CANVAS-ID####1756502844##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250905T101500Z
+DTEND:20250905T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150258
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2150258
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592196">##KADA-CANVAS-ID####1756502844##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250912T101500Z
+DTEND:20250912T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150264
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2150264
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502844##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592208">##KADA-CANVAS-ID####1756502844##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251031T111500Z
+DTEND:20251031T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150268
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2150268
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592293">##KADA-CANVAS-ID####1756502845##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251107T111500Z
+DTEND:20251107T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150272
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2150272
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502845##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592307">##KADA-CANVAS-ID####1756502845##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251121T111500Z
+DTEND:20251121T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150277
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2150277
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592330">##KADA-CANVAS-ID####1756502846##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T111500Z
+DTEND:20251128T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150282
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2150282
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592334">##KADA-CANVAS-ID####1756502846##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251205T111500Z
+DTEND:20251205T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2150285
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=12&yea
+ r=2025#calendar_event_2150285
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="592341">##KADA-CANVAS-ID####1756502846##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251021T061500Z
+DTEND:20251021T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155434
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2155434
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425935##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591485">##KADA-CANVAS-ID####17484
+ 25935##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251028T071500Z
+DTEND:20251028T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155439
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2155439
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425935##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591500">##KADA-CANVAS-ID####17484
+ 25935##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251104T071500Z
+DTEND:20251104T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155445
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2155445
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425935##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591517">##KADA-CANVAS-ID####17484
+ 25935##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251111T071500Z
+DTEND:20251111T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155451
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2155451
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425935##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591531">##KADA-CANVAS-ID####17484
+ 25935##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251118T071500Z
+DTEND:20251118T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155457
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2155457
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425936##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591538">##KADA-CANVAS-ID####17484
+ 25936##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T071500Z
+DTEND:20251125T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155463
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=11&yea
+ r=2025#calendar_event_2155463
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425936##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591552">##KADA-CANVAS-ID####17484
+ 25936##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251202T071500Z
+DTEND:20251202T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155469
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=12&yea
+ r=2025#calendar_event_2155469
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425936##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591566">##KADA-CANVAS-ID####17484
+ 25936##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250923T061500Z
+DTEND:20250923T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155475
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2155475
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425934##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591404">##KADA-CANVAS-ID####17484
+ 25934##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250930T061500Z
+DTEND:20250930T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155481
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2155481
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425934##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591432">##KADA-CANVAS-ID####17484
+ 25934##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251007T061500Z
+DTEND:20251007T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155487
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2155487
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425934##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591461">##KADA-CANVAS-ID####17484
+ 25934##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251014T061500Z
+DTEND:20251014T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155492
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2155492
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425935##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591476">##KADA-CANVAS-ID####17484
+ 25935##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250826T061500Z
+DTEND:20250826T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155499
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=08&yea
+ r=2025#calendar_event_2155499
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425933##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591279">##KADA-CANVAS-ID####17484
+ 25933##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250902T061500Z
+DTEND:20250902T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155503
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2155503
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425933##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591303">##KADA-CANVAS-ID####17484
+ 25933##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250909T061500Z
+DTEND:20250909T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155509
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2155509
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425934##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591352">##KADA-CANVAS-ID####17484
+ 25934##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250916T061500Z
+DTEND:20250916T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2155515
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=09&yea
+ r=2025#calendar_event_2155515
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom E] (http://rom.app.uib.no/romInfo/243
+ /301.04H1)\, [Studentsenteret] (https://link.mazemap.com/pImSXHmu)\n\nHende
+ lsen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra
+ .\n\n##KADA-CANVAS-ID####1748425934##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom E\, Studentsenteret
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Seminargruppe 3 [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="http://rom.app.ui
+ b.no/romInfo/243/301.04H1">Seminarrom E</a>\, <a href="https://link.mazemap
+ .com/pImSXHmu">Studentsenteret</a></div>\n<br><hr>\n<p>Hendelsen blir autom
+ atisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div sty
+ le="display: none\;" data-kada-canvas-id="591371">##KADA-CANVAS-ID####17484
+ 25934##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250827T081500Z
+DTEND:20250827T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2175902
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=08&yea
+ r=2025#calendar_event_2175902
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 2] (https://use.mazemap.com/?v=1&camp
+ uses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=124:603)\, [Jus
+ bygget] (https://link.mazemap.com/JjiSaBka)\n\nFagperson\n---------\n\n[Meh
+ di Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk 
+ generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID
+ ####1755158213##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 2\, Jusbygget
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=124:603">Auditorium 2</a>\, <a href="https://link.maze
+ map.com/JjiSaBka">Jusbygget</a></div>\n<h3>Fagperson</h3>\n<div><a href="ht
+ tp://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div>\n<br><hr>\n<p>Hendel
+ sen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.
+ </p>\n<div style="display: none\;" data-kada-canvas-id="617282">##KADA-CANV
+ AS-ID####1755158213##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251008T081500Z
+DTEND:20251008T100000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2175904
+URL:https://mitt.uib.no/calendar?include_contexts=course_53292&month=10&yea
+ r=2025#calendar_event_2175904
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 2] (https://use.mazemap.com/?v=1&camp
+ uses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=124:603)\, [Jus
+ bygget] (https://link.mazemap.com/JjiSaBka)\n\nFagperson\n---------\n\n[Meh
+ di Elahi] (http://www.uib.no/user/uib/eme070)\n\nHendelsen blir automatisk 
+ generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-CANVAS-ID
+ ####1755158221##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 2\, Jusbygget
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO180: Forelesning [INFO180]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=124:603">Auditorium 2</a>\, <a href="https://link.maze
+ map.com/JjiSaBka">Jusbygget</a></div>\n<h3>Fagperson</h3>\n<div><a href="ht
+ tp://www.uib.no/user/uib/eme070">Mehdi Elahi</a></div>\n<br><hr>\n<p>Hendel
+ sen blir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.
+ </p>\n<div style="display: none\;" data-kada-canvas-id="617285">##KADA-CANV
+ AS-ID####1755158221##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251003T101500Z
+DTEND:20251003T120000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2201965
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2201965
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="645286">##KADA-CANVAS-ID####1756502846##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251114T111500Z
+DTEND:20251114T130000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2201966
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2201966
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Auditorium 128] (https://use.mazemap.com/?v=1&ca
+ mpuses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=206:128)\, [B
+ jørn Christiansens hus (Christies gate 12)] (https://link.mazemap.com/RGXRD
+ T7E)\n\nFagperson\n---------\n\n[Andreas Lothe Opdahl] (http://www.uib.no/u
+ ser/uib/sinoa)\n\nHendelsen blir automatisk generert og vedlikeholdt. Du ka
+ n ikke endre den herfra.\n\n##KADA-CANVAS-ID####1756502846##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Auditorium 128\, Bjørn Christiansens hus (Christies gate 12)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Forelesning [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=206:128">Auditorium 128</a>\, <a href="https://link.ma
+ zemap.com/RGXRDT7E">Bjørn Christiansens hus (Christies gate 12)</a></div>\n
+ <h3>Fagperson</h3>\n<div><a href="http://www.uib.no/user/uib/sinoa">Andreas
+  Lothe Opdahl</a></div>\n<br><hr>\n<p>Hendelsen blir automatisk generert og
+  vedlikeholdt. Du kan ikke endre den herfra.</p>\n<div style="display: none
+ \;" data-kada-canvas-id="645287">##KADA-CANVAS-ID####1756502846##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250905T061500Z
+DTEND:20250905T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207489
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2207489
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859683##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652419">##KADA-CANVAS-ID#
+ ###1755859683##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250912T061500Z
+DTEND:20250912T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207491
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2207491
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859684##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652420">##KADA-CANVAS-ID#
+ ###1755859684##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250919T061500Z
+DTEND:20250919T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207493
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2207493
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859684##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652421">##KADA-CANVAS-ID#
+ ###1755859684##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250926T061500Z
+DTEND:20250926T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207495
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=09&yea
+ r=2025#calendar_event_2207495
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859684##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652422">##KADA-CANVAS-ID#
+ ###1755859684##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251003T061500Z
+DTEND:20251003T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207497
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2207497
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859684##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652423">##KADA-CANVAS-ID#
+ ###1755859684##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251010T061500Z
+DTEND:20251010T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207499
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2207499
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859684##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652424">##KADA-CANVAS-ID#
+ ###1755859684##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251017T061500Z
+DTEND:20251017T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207501
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2207501
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859685##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652425">##KADA-CANVAS-ID#
+ ###1755859685##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251024T061500Z
+DTEND:20251024T080000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207503
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2207503
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859685##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652426">##KADA-CANVAS-ID#
+ ###1755859685##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251031T071500Z
+DTEND:20251031T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207505
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=10&yea
+ r=2025#calendar_event_2207505
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859685##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652427">##KADA-CANVAS-ID#
+ ###1755859685##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251107T071500Z
+DTEND:20251107T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207507
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2207507
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859685##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652428">##KADA-CANVAS-ID#
+ ###1755859685##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251114T071500Z
+DTEND:20251114T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207509
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2207509
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859685##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652429">##KADA-CANVAS-ID#
+ ###1755859685##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251121T071500Z
+DTEND:20251121T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207511
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2207511
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859686##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652430">##KADA-CANVAS-ID#
+ ###1755859686##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T071500Z
+DTEND:20251128T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207513
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=11&yea
+ r=2025#calendar_event_2207513
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859686##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652431">##KADA-CANVAS-ID#
+ ###1755859686##</div>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251205T071500Z
+DTEND:20251205T090000Z
+DTSTAMP:20250919T070649Z
+UID:event-calendar-event-2207515
+URL:https://mitt.uib.no/calendar?include_contexts=course_53340&month=12&yea
+ r=2025#calendar_event_2207515
+CLASS:PUBLIC
+CREATED:20250905T104813Z
+DESCRIPTION:Sted\n----\n\n[Seminarrom 4B] (https://use.mazemap.com/?v=1&cam
+ puses=uib&sharepoitype=identifier&config=uib-bergen&sharepoi=213:406C01)\, 
+ [Ulrike Pihls hus] (https://link.mazemap.com/aS0GdvdK)\n\nHendelsen blir au
+ tomatisk generert og vedlikeholdt. Du kan ikke endre den herfra.\n\n##KADA-
+ CANVAS-ID####1755859686##
+LAST-MODIFIED:20250905T104814Z
+LOCATION:Seminarrom 4B\, Ulrike Pihls hus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INFO212: Seminargruppe 2 [INFO212]
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<h3>Sted</h3>\n<div><a href="https://use.mazem
+ ap.com/?v=1&amp\;campuses=uib&amp\;sharepoitype=identifier&amp\;config=uib-
+ bergen&amp\;sharepoi=213:406C01">Seminarrom 4B</a>\, <a href="https://link.
+ mazemap.com/aS0GdvdK">Ulrike Pihls hus</a></div>\n<br><hr>\n<p>Hendelsen bl
+ ir automatisk generert og vedlikeholdt. Du kan ikke endre den herfra.</p>\n
+ <div style="display: none\;" data-kada-canvas-id="652432">##KADA-CANVAS-ID#
+ ###1755859686##</div>
+END:VEVENT
+END:VCALENDAR
