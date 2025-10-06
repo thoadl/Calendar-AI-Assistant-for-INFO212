@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>AI Calendar Assistant - Prototype</title>
+  <title>AI Calendar Assistant - Prototipo</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,13 +12,13 @@
       <div class="logo">
         <div class="dot"></div>
         <div>
-          <strong>AI Calendar Assistant</strong><br><small style="color:var(--muted)">Prototype — simple version</small>
+          <strong>AI Calendar Assistant</strong><br><small style="color:var(--muted)">Prototype — versión simple</small>
         </div>
       </div>
       <div class="controls">
-        <div style="color:var(--muted);font-size:14px">Week: 7 - 13 Sep 2025</div>
-        <button class="btn ghost">Profile</button>
-        <button class="btn">Connect calendar</button>
+        <div style="color:var(--muted);font-size:14px" id="weekLabel">Semana: 7 - 13 Sep 2025</div>
+        <button class="btn ghost" id="profileBtn">Profile</button>
+        <button class="btn">Conectar calendario</button>
       </div>
     </header>
 
@@ -26,150 +26,303 @@
       <section class="calendar-card">
         <div class="calendar-header">
           <div>
-            <strong>Weekly View</strong>
-            <div style="font-size:13px;color:var(--muted)">Drag tasks from the right to the desired day</div>
+            <strong id="viewTitle">Vista semanal</strong>
+            <div style="font-size:13px;color:var(--muted)">Arrastra tareas desde la derecha al día deseado</div>
           </div>
           <div class="view-toggle">
-            <button class="btn ghost" onclick="toggleView('day')">Day</button>
-            <button class="btn" onclick="toggleView('week')">Week</button>
-            <button class="btn ghost" onclick="toggleView('month')">Month</button>
+            <button class="btn ghost" data-view="day">Día</button>
+            <button class="btn" data-view="week">Semana</button>
+            <button class="btn ghost" data-view="month">Mes</button>
           </div>
         </div>
 
         <div class="week-grid" id="weekGrid">
-          <div class="day" data-day="Monday">
-            <h4>Monday</h4>
-            <div class="slot" data-type="study">09:00 - 11:00 • Study: Mathematics</div>
-            <div class="slot work">13:00 - 16:00 • Work</div>
-          </div>
-
-          <div class="day" data-day="Tuesday">
-            <h4>Tuesday</h4>
-            <div class="slot personal">18:00 - 20:00 • Personal appointment</div>
-          </div>
-
-          <div class="day" data-day="Wednesday">
-            <h4>Wednesday</h4>
-          </div>
-
-          <div class="day" data-day="Thursday">
-            <h4>Thursday</h4>
-          </div>
-
-          <div class="day" data-day="Friday">
-            <h4>Friday</h4>
-            <div class="slot" data-type="exam">10:00 - 12:00 • Exam</div>
-          </div>
-
-          <div class="day" data-day="Saturday">
-            <h4>Saturday</h4>
-          </div>
-
-          <div class="day" data-day="Sunday">
-            <h4>Sunday</h4>
-            <div class="slot personal">All day • Rest</div>
-          </div>
-        </div>
-
-        <div class="footer-suggest">
-          <div style="font-size:13px;color:var(--muted)">Assistant suggestions: 1 conflict detected</div>
-          <div>
-            <button class="btn ghost" onclick="showSuggestion()">View suggestion</button>
-          </div>
+          <!-- grid generado dinámicamente -->
         </div>
       </section>
 
       <aside>
-        <div class="tasks">
-          <h3>Pending Tasks</h3>
-          <div class="task-list" id="taskList">
-            <!-- generated tasks -->
-          </div>
-
-          <div class="add-form">
-            <input id="taskTitle" placeholder="Task name" />
-            <select id="taskType">
-              <option value="study">Study</option>
-              <option value="work">Work</option>
-              <option value="personal">Personal</option>
-            </select>
-            <button class="btn" onclick="addTask()">+ Add</button>
-          </div>
+        <div class="actions">
+          <button id="commitBtn">Apply changes</button>
+          <button id="discardBtn">Discard changes</button>
         </div>
 
-        <div class="suggestions">
-          <h3>Suggestions</h3>
-          <div id="suggestionBox">
-            <div style="font-size:13px;color:var(--muted)">No active suggestions.</div>
-          </div>
+        <div class="add-event-form">
+          <h3>Add event</h3>
+          <input type="date" id="eventDate" />
+          <input type="time" id="eventTime" />
+          <input type="number" id="eventDuration" placeholder="Duration (min)" />
+          <input type="text" id="eventTitle" placeholder="Title" />
+          <button id="addEventBtn" class="btn" style="margin-top:8px">+ Add event</button>
         </div>
       </aside>
     </div>
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // make each slot draggable
-      document.querySelectorAll('.slot').forEach(slot => {
-        slot.setAttribute('draggable', 'true');
-      });
+<script>
 
-      let draggedSlot = null;
+document.getElementById('profileBtn').addEventListener('click', () => {
+  window.location.href = 'profile.html'; // lleva a la página de perfil
+});
 
-      // Drag slots
-      document.addEventListener('dragstart', e => {
-        const slot = e.target.closest('.slot');
-        if (!slot) return;
-        draggedSlot = slot;
-        slot.classList.add('dragging');
-        if (e.dataTransfer) {
-          e.dataTransfer.setData('text/plain', ''); 
-          e.dataTransfer.effectAllowed = 'move';
-        }
-      });
+/* ---------- CONFIG y estado ---------- */
+// Para que coincida con tus datos de prueba (7 Sep 2025), inicializamos aquí.
+// Puedes cambiar a `new Date()` si quieres la semana actual.
+let currentDate = new Date(2025, 8, 7); // 7 Sept 2025 (mes 8 = septiembre)
 
-      document.addEventListener('dragend', e => {
-        const slot = e.target.closest('.slot');
-        if (!slot) return;
-        slot.classList.remove('dragging');
-        draggedSlot = null;
-      });
+/* Utilidades */
+function pad(n){ return String(n).padStart(2,'0'); }
+function isoDateFromObj(d){ return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
 
-      // Handle drop on days
-      document.querySelectorAll('.day').forEach(day => {
-        day.addEventListener('dragover', e => {
-          e.preventDefault();
-          day.classList.add('drop-over');
-        });
-        day.addEventListener('dragleave', e => {
-          day.classList.remove('drop-over');
-        });
-        day.addEventListener('drop', e => {
-          e.preventDefault();
-          day.classList.remove('drop-over');
-          if (draggedSlot) {
-            day.appendChild(draggedSlot);
-            draggedSlot = null;
-          }
-        });
-      });
+/* createDayElement: crea el <div class="day"> con data-date correctamente padded */
+function createDayElement(dateObj){
+  const dateStr = isoDateFromObj(dateObj);
+  const el = document.createElement('div');
+  el.className = 'day';
+  el.dataset.date = dateStr;
+  // Muestra día corto + número (p.ej "lun 7")
+  const weekday = dateObj.toLocaleDateString('es-ES', { weekday: 'short' });
+  el.innerHTML = `<h4>${weekday} ${dateObj.getDate()}</h4>`;
+  // Drag & drop hooks
+  el.addEventListener('dragover', e => { e.preventDefault(); el.classList.add('drop-over'); });
+  el.addEventListener('dragleave', e => { el.classList.remove('drop-over'); });
+  el.addEventListener('drop', e => {
+    e.preventDefault();
+    el.classList.remove('drop-over');
+    const id = e.dataTransfer.getData('text/plain');
+    // si viene un id de tarea, mover; si viene un slot, lo tratamos en drag handlers
+    const dragged = document.querySelector(`[data-drag-id="${id}"]`);
+    if(dragged) el.appendChild(dragged);
+  });
+  return el;
+}
 
-      // Toggle view
-      window.toggleView = function(view) {
-        const grid = document.getElementById('weekGrid');
-        if (!grid) return;
-        grid.classList.remove('view-day','view-week','view-month');
+/* ---------- RENDER VISTAS ---------- */
 
-        if (view === 'day') {
-          grid.classList.add('view-day');
-        } else if (view === 'week') {
-          grid.classList.add('view-week');
-        } else if (view === 'month') {
-          grid.classList.add('view-month');
-        }
-      };
+function renderWeek(dateRef){
+  const grid = document.getElementById('weekGrid');
+  grid.className = 'week-grid view-week';
+  grid.innerHTML = '';
+  // calcular lunes de la semana que contiene dateRef (lunes = 1)
+  const d = new Date(dateRef);
+  const jsDay = d.getDay(); // 0=domingo
+  const daysFromMonday = jsDay === 0 ? 6 : jsDay - 1;
+  const monday = new Date(d); monday.setDate(d.getDate() - daysFromMonday);
+  for(let i=0;i<7;i++){
+    const di = new Date(monday); di.setDate(monday.getDate() + i);
+    grid.appendChild(createDayElement(di));
+  }
+  document.getElementById('viewTitle').textContent = 'Vista semanal';
+  setActiveToggle('week');
+  loadEvents();
+}
+
+function renderDay(dateRef){
+  const grid = document.getElementById('weekGrid');
+  grid.className = 'week-grid view-day';
+  grid.innerHTML = '';
+  const d = new Date(dateRef);
+  grid.appendChild(createDayElement(d));
+  document.getElementById('viewTitle').textContent = 'Vista diaria';
+  setActiveToggle('day');
+  loadEvents();
+}
+
+function renderMonth(dateRef){
+  const grid = document.getElementById('weekGrid');
+  grid.className = 'week-grid view-month';
+  grid.innerHTML = '';
+  const year = dateRef.getFullYear();
+  const month = dateRef.getMonth();
+  const firstDay = new Date(year, month, 1);
+  const lastDay = new Date(year, month + 1, 0);
+  // calcular cuantos blanks al inicio (lunes=0)
+  const blanks = (firstDay.getDay() + 6) % 7;
+  for(let i=0;i<blanks;i++){
+    const blank = document.createElement('div');
+    blank.className = 'day blank';
+    grid.appendChild(blank);
+  }
+  for(let d=1; d<=lastDay.getDate(); d++){
+    const di = new Date(year, month, d);
+    grid.appendChild(createDayElement(di));
+  }
+  document.getElementById('viewTitle').textContent = 'Vista mensual';
+  setActiveToggle('month');
+  loadEvents();
+}
+
+/* cambia clases de los botones para marcar el activo */
+function setActiveToggle(view){
+  const buttons = document.querySelectorAll('.view-toggle button');
+  buttons.forEach(btn => {
+    if(btn.dataset.view === view){
+      btn.classList.remove('ghost');
+    } else {
+      btn.classList.add('ghost');
+    }
+  });
+}
+
+/* ---------- PINTAR EVENTOS ---------- */
+
+function paintEvent(ev){
+  // ev.start puede ser {dateTime: "..."} o {"date": "..."}; lo normal es dateTime
+  const startRaw = (ev.start && (ev.start.dateTime || ev.start.date)) || ev.start;
+  const endRaw   = (ev.end && (ev.end.dateTime || ev.end.date)) || ev.end;
+  if(!startRaw) return console.warn('Evento sin start:', ev);
+
+  // startRaw es string ISO "YYYY-MM-DDTHH:mm:ss" o "YYYY-MM-DD"
+  const startStr = typeof startRaw === 'string' ? startRaw : String(startRaw);
+  const endStr = typeof endRaw === 'string' ? endRaw : (endRaw ? String(endRaw) : '');
+
+  const dateKey = startStr.slice(0,10); // YYYY-MM-DD EXACTAMENTE como data-date
+  const dayEl = document.querySelector(`.day[data-date="${dateKey}"]`);
+  if(!dayEl){
+    // no visible en la vista actual (p.ej. el mes actual), ignorar pero mostrar aviso
+    console.warn('No se encontró elemento día para', dateKey, 'evento:', ev.summary);
+    return;
+  }
+
+  const slot = document.createElement('div');
+  slot.className = 'slot';
+  if(ev.draft) slot.classList.add('draft'); else slot.classList.add('real');
+  if(ev.conflict) slot.classList.add('conflict');
+
+  const startTime = startStr.length > 10 ? startStr.substring(11,16) : '';
+  const endTime = endStr && endStr.length > 10 ? endStr.substring(11,16) : '';
+  const title = ev.summary || ev.title || 'Sin título';
+
+  slot.textContent = `${startTime}${endTime ? ' - ' + endTime : ''} • ${title}`;
+
+  // para permitir arrastrar slots si quieres moverlos
+  slot.setAttribute('draggable','true');
+  // identificador para drop transfer; usar timestamp único
+  const dragId = 'slot-' + Date.now() + '-' + Math.floor(Math.random()*1000);
+  slot.dataset.dragId = dragId;
+  slot.setAttribute('data-drag-id', dragId);
+
+  slot.addEventListener('dragstart', e => {
+    e.dataTransfer.setData('text/plain', dragId);
+    slot.classList.add('dragging');
+  });
+  slot.addEventListener('dragend', e => {
+    slot.classList.remove('dragging');
+  });
+
+  dayEl.appendChild(slot);
+}
+
+/* ---------- CARGAR eventos desde backend ---------- */
+async function loadEvents(){
+  try{
+    const res = await fetch('http://localhost:8000/events');
+    const events = await res.json();
+    console.log('Eventos recibidos:', events);
+
+    // eliminar slots previos en el DOM (pero mantener las celdas de día)
+    document.querySelectorAll('.day').forEach(day => {
+      day.querySelectorAll('.slot').forEach(s => s.remove());
     });
-  </script>
 
+    // pintar cada evento en su día correspondiente (según vista actual)
+    events.forEach(ev => {
+      // la API puede devolver {start: {dateTime: "..."} } o {start: "..."}. normalizamos
+      let startField = '';
+      if(ev.start){
+        startField = ev.start.dateTime || ev.start.date || (typeof ev.start === 'string' ? ev.start : '');
+      }
+      let endField = '';
+      if(ev.end){
+        endField = ev.end.dateTime || ev.end.date || (typeof ev.end === 'string' ? ev.end : '');
+      }
+      // si no hay start en forma string, ignoramos
+      if(!startField) return console.warn('Evento sin start string:', ev);
+
+      // reconstruimos objeto sencillo para paintEvent
+      const simplified = {
+        summary: ev.summary || ev.title,
+        start: { dateTime: startField },
+        end: { dateTime: endField },
+        draft: !!ev.draft,
+        conflict: !!ev.conflict
+      };
+      paintEvent(simplified);
+    });
+
+  } catch(err){
+    console.error('Error cargando eventos:', err);
+  }
+}
+
+/* ---------- INTERACCIÓN: cambiar vista, añadir evento ---------- */
+
+function toggleView(view){
+  if(view === 'day') renderDay(currentDate);
+  else if(view === 'week') renderWeek(currentDate);
+  else if(view === 'month') renderMonth(currentDate);
+}
+
+/* Añadir evento -> backend espera "start" y "end" strings y "title" */
+async function addEventViaForm(){
+  const date = document.getElementById('eventDate').value;
+  const time = document.getElementById('eventTime').value;
+  const duration = parseInt(document.getElementById('eventDuration').value || '0');
+  const title = document.getElementById('eventTitle').value || 'Untitled';
+  if(!date || !time || !duration || !title) return alert('Complete all fields');
+
+  const start = `${date}T${time}:00`;
+  const dt = new Date(start);
+  dt.setMinutes(dt.getMinutes() + duration);
+  const endISO = dt.getFullYear() + '-' + pad(dt.getMonth()+1) + '-' + pad(dt.getDate()) + 'T' +
+                 pad(dt.getHours()) + ':' + pad(dt.getMinutes()) + ':00';
+
+  // backend (app.py) espera { "start": <iso>, "end": <iso>, "title": <string> }
+  await fetch('http://localhost:8000/draft/add', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ start: start, end: endISO, title: title })
+  });
+
+  // recargar vista
+  await loadEvents();
+}
+
+/* ---------- INICIALIZACIÓN y wiring ---------- */
+document.addEventListener('DOMContentLoaded', () => {
+  // render inicial: semana que contiene currentDate
+  renderWeek(currentDate);
+
+  // toggle buttons
+  document.querySelectorAll('.view-toggle button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const view = btn.dataset.view;
+      toggleView(view);
+    });
+  });
+
+  document.getElementById('addEventBtn').addEventListener('click', addEventViaForm);
+
+  // commit/discard (llaman al backend)
+  document.getElementById('commitBtn').addEventListener('click', async () => {
+    try{
+      await fetch('http://localhost:8000/commit', { method: 'POST' });
+      alert('Cambios aplicados');
+      await loadEvents();
+    }catch(e){ console.error(e); alert('Error al aplicar cambios'); }
+  });
+
+  document.getElementById('discardBtn').addEventListener('click', async () => {
+    try{
+      await fetch('http://localhost:8000/discard', { method: 'POST' });
+      alert('Drafts descartados');
+      await loadEvents();
+    }catch(e){ console.error(e); alert('Error al descartar'); }
+  });
+
+  // refrescar cada vez que vuelves a la pestaña (útil durante dev)
+  window.addEventListener('focus', loadEvents);
+});
+</script>
 </body>
 </html>
