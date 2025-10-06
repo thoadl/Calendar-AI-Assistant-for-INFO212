@@ -268,13 +268,13 @@ document.addEventListener('DOMContentLoaded', () => {
       day.querySelectorAll(".slot").forEach(s => s.remove())
     );
 
-    // pintar eventos reales
+    // paint real events
     data.real.forEach(ev => paintEvent(ev, "real"));
 
-    // pintar draft
+    // paint draft
     data.draft.forEach(ev => paintEvent(ev, "draft"));
 
-    // marcar conflictos
+    // mark conflicts
     data.conflicts.forEach(([e1, e2]) => {
       markConflict(e1, e2);
     });
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const dayEl = document.querySelector(`.day[data-date="${ev.start.slice(0,10)}"]`);
       if (!dayEl) return;
       Array.from(dayEl.querySelectorAll(".slot")).forEach(slot => {
-        if (slot.textContent.includes(ev.title)) {
+        if (slot.textContent.includes(ev.summary)) {
           slot.classList.add("conflict");
         }
       });
@@ -338,7 +338,7 @@ async function loadEvents() {
             day.querySelectorAll(".slot").forEach(s => s.remove())
         );
 
-        // añadir eventos
+        // add events
         events.forEach(ev => {
             const start = ev.start.dateTime || ev.start.date;
             const end = ev.end.dateTime || ev.end.date;

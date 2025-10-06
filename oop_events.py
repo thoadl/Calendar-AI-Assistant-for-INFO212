@@ -36,7 +36,6 @@ class Event:
 
 class Calendar:
     """A calendar containing a collection of events"""
-
     def __init__(self, name: str, source: str = "draft"):
         self.name = name
         self.source = source
@@ -130,11 +129,20 @@ class CalendarManager:
     def apply_changes(self, service):
         """Push draft events into Google Calendar API"""
         for ev in self.draft_calendar.events:
-            if service:
-                service.events().insert(calendarId="primary", body=ev.to_dict()).execute()            # mover a real
-            
-            ev.source = "real"
-            self.real_calendar.add_event(ev)
+            # check if event already exists in real_calendar by title+start
+            exists = any(
+                e.title == ev.title and e.start == ev.start for e in self.real_calendar.events
+            )
+            if not exists and service:
+                event_body = {
+                    "summary": ev.title,
+                    "start": {"dateTime": ev.start.isoformat(), "timeZone": "Europe/Madrid"},
+                    "end": {"dateTime": ev.end.isoformat(), "timeZone": "Europe/Madrid"},
+                }
+                service.events().insert(calendarId="primary", body=event_body).execute() 
+
+                ev.source = "real"
+                self.real_calendar.add_event(ev)
 
         # clear draft after pushing
         self.draft_calendar.clear()

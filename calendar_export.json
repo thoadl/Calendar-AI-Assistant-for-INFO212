@@ -94,5 +94,29 @@
       "timeZone": "Europe/Madrid"
     },
     "draft": false
+  },
+  {
+    "summary": "class",
+    "start": {
+      "dateTime": "2025-08-09T20:00:00",
+      "timeZone": "Europe/Madrid"
+    },
+    "end": {
+      "dateTime": "2025-08-09T20:30:00",
+      "timeZone": "Europe/Madrid"
+    },
+    "draft": false
+  },
+  {
+    "summary": "lunch",
+    "start": {
+      "dateTime": "2025-09-13T13:00:00",
+      "timeZone": "Europe/Madrid"
+    },
+    "end": {
+      "dateTime": "2025-09-13T13:40:00",
+      "timeZone": "Europe/Madrid"
+    },
+    "draft": false
   }
 ]
