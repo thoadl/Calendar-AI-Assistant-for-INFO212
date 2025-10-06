@@ -24,6 +24,12 @@ def main():
         json.dump(events, f, indent=2, ensure_ascii=False)
     print(f"Exported {len(events)} events to calendar_export.json\n")
 
+    ai = CalendarAIClient(
+        api_key=api_key,
+        calendar_file="calendar_export.json",
+        delta_file="calendar_delta.json"
+    )
+
     # Step 2: Ask user what they want to do
     while True:
         print("\nWhat would you like to do?")
