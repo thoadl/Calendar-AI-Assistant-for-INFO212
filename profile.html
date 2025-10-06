@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perfil de usuario</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f5f7fb; color: #0f172a; }
+    .card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 6px 18px rgba(15,23,42,0.06); max-width: 400px; margin: auto; }
+    h1 { margin-top: 0; }
+    .field { margin-bottom: 12px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Perfil de usuario</h1>
+    <div class="field"><strong>Nombre:</strong> <span id="userName">Cargando...</span></div>
+    <div class="field"><strong>Email:</strong> <span id="userEmail">Cargando...</span></div>
+    <div class="field"><strong>Rol:</strong> <span id="userRole">Cargando...</span></div>
+    <button onclick="goBack()">Volver al calendario">Volver</button>
+  </div>
+
+  <script>
+    // función para volver al calendario
+    function goBack() {
+      window.location.href = 'index.html'; // o la página principal
+    }
+
+    // ejemplo de carga de datos desde backend
+    async function loadUserData() {
+      try {
+        const res = await fetch('http://localhost:8000/user'); // endpoint que devuelve info del usuario
+        const data = await res.json();
+        document.getElementById('userName').textContent = data.name || 'Sin nombre';
+        document.getElementById('userEmail').textContent = data.email || 'Sin email';
+        document.getElementById('userRole').textContent = data.role || 'Sin rol';
+      } catch(e) {
+        console.error('Error cargando usuario:', e);
+        document.getElementById('userName').textContent = 'Error';
+        document.getElementById('userEmail').textContent = 'Error';
+        document.getElementById('userRole').textContent = 'Error';
+      }
+    }
+
+    loadUserData();
+  </script>
+</body>
+</html>
