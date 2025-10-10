@@ -74,8 +74,8 @@ def main():
                 continue
 
             # Step 3: Apply the delta file using GoogleCalendarSync
-            confirm_delete = input("Delete events automatically without confirmation? (yes/no): ").strip().lower()
-            syncer.apply_delta(auto_delete=(confirm_delete == "yes"))
+            #confirm_delete = input("Delete events automatically without confirmation? (yes/no): ").strip().lower()
+            syncer.apply_delta(auto_delete=(True))
 
             print("\nChanges applied successfully!")
 
