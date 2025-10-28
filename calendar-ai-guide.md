@@ -1,3 +1,5 @@
+# This guide is AI-generated
+
 # Developer Guide: Using Calendar AI Classes
 
 ## Overview
