@@ -333,13 +333,23 @@ async function loadEvents() {
         const res = await fetch("http://localhost:8000/events");
         const events = await res.json();
 
+        const uniqueEvents = [];
+        const seenIds = new Set();
+
+        for (const ev of events) {
+          if (!seenIds.has(ev.id)) {
+            seenIds.add(ev.id);
+            uniqueEvents.push(ev);
+          }
+        }
+
         // limpiar slots existentes
         document.querySelectorAll(".day").forEach(day =>
             day.querySelectorAll(".slot").forEach(s => s.remove())
         );
 
         // add events
-        events.forEach(ev => {
+        uniqueEvents.forEach(ev => {
             const start = ev.start.dateTime || ev.start.date;
             const end = ev.end.dateTime || ev.end.date;
             const dayEl = document.querySelector(`.day[data-date="${start.slice(0,10)}"]`);
