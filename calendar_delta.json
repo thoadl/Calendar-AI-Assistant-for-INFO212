@@ -1,0 +1,17 @@
+{
+  "add": [],
+  "update": [
+    {
+      "id": "05mut1fon1q42vovsru3d07ds8",
+      "start": {
+        "dateTime": "2025-09-13T18:00:00+02:00",
+        "timeZone": "Europe/Madrid"
+      },
+      "end": {
+        "dateTime": "2025-09-13T19:00:00+02:00",
+        "timeZone": "Europe/Madrid"
+      }
+    }
+  ],
+  "delete": []
+}

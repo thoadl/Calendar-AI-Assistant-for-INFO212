@@ -159,6 +159,37 @@ def conflicts():
     overlaps = calendar_manager.find_all_overlaps()
     return jsonify(overlaps)
 
+@app.post("/draft/add-and-reschedule")
+def add_and_reschedule():
+    """
+    1. Add the new event as a draft (same as /draft/add)
+    2. Run auto-reschedule for study blocks
+    3. Return the new event + any moved study blocks
+    """
+    data = request.json
+    title = data.get("title", "Untitled")
+    start_dt = datetime.fromisoformat(data["start"])
+    end_dt = datetime.fromisoformat(data["end"])
+    duration = int((end_dt - start_dt).total_seconds() // 60)
+
+    # ---- 1. create & save the new event (draft) --------------------
+    event = calendar_manager.create_event(
+        date=start_dt.strftime("%Y-%m-%d"),
+        start_time=start_dt.strftime("%H:%M"),
+        duration_minutes=duration,
+        title=title,
+    )
+    calendar_manager.save_draft_event(event)
+
+    # ---- 2. auto-move study blocks ---------------------------------
+    moved = calendar_manager.auto_reschedule_study_blocks(event)
+
+    # ---- 3. response ------------------------------------------------
+    return jsonify({
+        "status": "ok",
+        "added": event.to_dict(),
+        "rescheduled_study_blocks": moved,   # [] if none moved
+    })
 
 # -------------------- RUN --------------------
 if __name__ == "__main__":
