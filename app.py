@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, session, redirect
+from flask import Flask, request, jsonify, session, redirect, send_from_directory
 import os, json
 from datetime import datetime
 from flask_cors import CORS
@@ -7,10 +7,18 @@ from oop_events import CalendarManager  # tu clase con Event y CalendarManager
 from google_auth_oauthlib.flow import Flow
 
 # -------------------- CONFIG --------------------
-sync = GoogleCalendarSync("credentials.json", "token.json")
+sync = GoogleCalendarSync(
+    scopes=["https://www.googleapis.com/auth/calendar"],
+    credentials_file="credentials.json",
+    token_file="token.json"
+)
 calendar_manager = CalendarManager()  # maneja draft y real
+calendar_manager.real_calendar.load_from_file(calendar_manager.real_file)
+calendar_manager.draft_calendar.load_from_file(calendar_manager.draft_file)
+
 
 app = Flask(__name__)
+
 CORS(app)
 
 app.secret_key = "secret"  # change
@@ -19,6 +27,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 CLIENT_SECRETS_FILE = "credentials.json"
 
 # -------------------- ENDPOINTS --------------------
+
 @app.route("/auth/google")
 def auth_google():
     flow = Flow.from_client_secrets_file(
@@ -83,7 +92,10 @@ def get_events():
             "draft": False,
         })
     
-
+    '''
+    return jsonify([
+        {"title": "Evento demo", "start": "2025-10-10T10:00", "end": "2025-10-10T11:00", "draft": False}
+    ])'''
     return jsonify(real + draft + g_events)
 
 
@@ -159,37 +171,6 @@ def conflicts():
     overlaps = calendar_manager.find_all_overlaps()
     return jsonify(overlaps)
 
-@app.post("/draft/add-and-reschedule")
-def add_and_reschedule():
-    """
-    1. Add the new event as a draft (same as /draft/add)
-    2. Run auto-reschedule for study blocks
-    3. Return the new event + any moved study blocks
-    """
-    data = request.json
-    title = data.get("title", "Untitled")
-    start_dt = datetime.fromisoformat(data["start"])
-    end_dt = datetime.fromisoformat(data["end"])
-    duration = int((end_dt - start_dt).total_seconds() // 60)
-
-    # ---- 1. create & save the new event (draft) --------------------
-    event = calendar_manager.create_event(
-        date=start_dt.strftime("%Y-%m-%d"),
-        start_time=start_dt.strftime("%H:%M"),
-        duration_minutes=duration,
-        title=title,
-    )
-    calendar_manager.save_draft_event(event)
-
-    # ---- 2. auto-move study blocks ---------------------------------
-    moved = calendar_manager.auto_reschedule_study_blocks(event)
-
-    # ---- 3. response ------------------------------------------------
-    return jsonify({
-        "status": "ok",
-        "added": event.to_dict(),
-        "rescheduled_study_blocks": moved,   # [] if none moved
-    })
 
 # -------------------- RUN --------------------
 if __name__ == "__main__":
