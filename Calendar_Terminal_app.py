@@ -8,14 +8,9 @@ def main():
     print("Welcome to the Calendar AI Assistant!")
     api_key = "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"
 
-    # Initialize Google Calendar and AI clients
+    # Initialize Google Calendar
     exporter = GoogleCalendarExporter()
     syncer = GoogleCalendarSync()
-    ai = CalendarAIClient(
-        api_key=api_key,
-        calendar_file="calendar_export.json",
-        delta_file="calendar_delta.json"
-    )
 
     # Step 1: Fetch the latest Google Calendar
     print("\nFetching the latest calendar events...")
@@ -23,6 +18,13 @@ def main():
     with open("calendar_export.json", "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
     print(f"Exported {len(events)} events to calendar_export.json\n")
+
+    #Initialize AI client
+    ai = CalendarAIClient(
+        api_key=api_key,
+        calendar_file="calendar_export.json",
+        delta_file="calendar_delta.json"
+    )
 
     # Step 2: Ask user what they want to do
     while True:
@@ -72,8 +74,8 @@ def main():
                 continue
 
             # Step 3: Apply the delta file using GoogleCalendarSync
-            confirm_delete = input("Delete events automatically without confirmation? (yes/no): ").strip().lower()
-            syncer.apply_delta(auto_delete=(confirm_delete == "yes"))
+            #confirm_delete = input("Delete events automatically without confirmation? (yes/no): ").strip().lower()
+            syncer.apply_delta(auto_delete=(True))
 
             print("\nChanges applied successfully!")
 

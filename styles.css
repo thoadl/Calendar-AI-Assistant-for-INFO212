@@ -1,0 +1,477 @@
+:root {
+    --bg: #f5f7fb;
+    --card: #fff;
+    --accent: #2563eb;
+    --muted: #64748b;
+    --text: #0f172a;
+    --border: rgba(15, 23, 42, 0.06);
+    --shadow: rgba(15, 23, 42, 0.06);
+    --task-bg: #f8fafc;
+}
+
+[data-theme="dark"] {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --accent: #3b82f6;
+    --muted: #94a3b8;
+    --text: #f1f5f9;
+    --border: rgba(255, 255, 255, 0.1);
+    --shadow: rgba(0, 0, 0, 0.3);
+    --task-bg: #334155;
+}
+
+* {
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body {
+    font-family: Inter, system-ui, Arial, sans-serif;
+    background: var(--bg);
+    margin: 0;
+    padding: 20px;
+    color: var(--text);
+}
+
+.app {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo .dot {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--accent);
+    display: inline-block;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.theme-toggle:hover {
+    background: var(--border);
+}
+
+.theme-icon {
+    font-size: 16px;
+}
+
+/* Button Styles */
+.btn {
+    background: var(--accent);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.btn.ghost {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+/* View Toggle Styles */
+.view-toggle .btn.active {
+    background-color: var(--accent);
+    color: white;
+}
+
+.view-toggle .btn:not(.active) {
+    background-color: transparent;
+    color: var(--accent);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+/* Main Layout */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 16px;
+}
+
+.calendar-card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 8px;
+}
+
+/* Navigation Styles */
+.calendar-navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    color: var(--text);
+}
+
+.nav-btn:hover {
+    background-color: var(--border);
+}
+
+.current-period {
+    font-weight: bold;
+    font-size: 16px;
+    min-width: 200px;
+    text-align: center;
+    color: var(--text);
+}
+
+/* Calendar Grid Styles */
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+}
+
+.day {
+    min-height: 220px;
+    border-radius: 8px;
+    padding: 8px;
+    background: linear-gradient(180deg, var(--border), transparent);
+    border: 1px dashed var(--border);
+    position: relative;
+}
+
+.day h4 {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text);
+}
+
+/* Slot Styles */
+.slot {
+    display: block;
+    margin-top: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: default;
+    border-left: 4px solid transparent;
+    color: var(--text);
+}
+
+.slot.work {
+    background: #e6f9ec;
+    border-left-color: #16a34a;
+}
+
+[data-theme="dark"] .slot.work {
+    background: #1a3a2a;
+    border-left-color: #22c55e;
+}
+
+.slot.personal {
+    background: #fff4e6;
+    border-left-color: #fb923c;
+}
+
+[data-theme="dark"] .slot.personal {
+    background: #3a2a1a;
+    border-left-color: #f97316;
+}
+
+.slot.draft {
+    background-color: lightcoral;
+    border-left: 4px solid darkred;
+}
+
+[data-theme="dark"] .slot.draft {
+    background-color: #7f1d1d;
+    border-left-color: #dc2626;
+}
+
+.slot.real {
+    background: #c8e6c9;
+    border-left: 4px solid green;
+}
+
+[data-theme="dark"] .slot.real {
+    background: #1a3a2a;
+    border-left-color: #22c55e;
+}
+
+.slot.conflict {
+    border: 2px solid red;
+}
+
+[data-theme="dark"] .slot.conflict {
+    border: 2px solid #ef4444;
+}
+
+/* Sidebar Styles */
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tasks {
+    background: var(--card);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+.tasks h3 {
+    margin: 0 0 8px 0;
+    color: var(--text);
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.task {
+    background: var(--task-bg);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task .meta {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+/* Form Styles */
+.add-form {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+input, select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-size: 14px;
+    font-family: inherit;
+    background: var(--card);
+    color: var(--text);
+}
+
+input::placeholder {
+    color: var(--muted);
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.actions .btn {
+    flex: 1;
+}
+
+/* Add Event Form */
+.add-event-form {
+    background: var(--card);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+.add-event-form h3 {
+    margin: 0 0 10px 0;
+    color: var(--text);
+}
+
+.add-event-form input {
+    width: 100%;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.add-event-form button {
+    width: 100%;
+}
+
+/* Drag & Drop Styles */
+.dragging {
+    opacity: 0.5;
+}
+
+.drop-over {
+    outline: 3px dashed var(--accent);
+}
+
+.task[draggable="true"],
+.slot[draggable="true"] {
+    cursor: grab;
+}
+
+.task.dragging,
+.slot.dragging {
+    opacity: 0.5;
+}
+
+.day.drop-over {
+    outline: 3px dashed var(--accent);
+}
+
+/* View Specific Styles */
+/* Day View */
+#weekGrid.view-day .day {
+    display: none;
+}
+
+#weekGrid.view-day .day:first-child {
+    display: block;
+    grid-column: 1 / -1;
+}
+
+/* Month View */
+#weekGrid.view-month {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#weekGrid.view-month .day {
+    min-height: 100px;
+    font-size: 12px;
+}
+
+/* Footer Suggestions */
+.footer-suggest {
+    margin-top: 12px;
+    background: var(--card);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+    
+    aside {
+        order: 2;
+    }
+    
+    .calendar-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .view-toggle {
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .controls {
+        align-self: stretch;
+        justify-content: space-between;
+    }
+    
+    .calendar-navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .current-period {
+        min-width: auto;
+        order: -1;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .week-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #weekGrid.view-month {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .add-form {
+        flex-direction: column;
+    }
+}

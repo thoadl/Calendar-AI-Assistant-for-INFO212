@@ -1,16 +1,25 @@
-from flask import Flask, request, jsonify, session, redirect
+from flask import Flask, request, jsonify, session, redirect, send_from_directory
 import os, json
 from datetime import datetime
 from flask_cors import CORS
 from GoogleCalendarSync import GoogleCalendarSync
 from oop_events import CalendarManager  # tu clase con Event y CalendarManager
 from google_auth_oauthlib.flow import Flow
+from dateutil import parser
 
 # -------------------- CONFIG --------------------
-sync = GoogleCalendarSync("credentials.json", "token.json")
+sync = GoogleCalendarSync(
+    scopes=["https://www.googleapis.com/auth/calendar"],
+    credentials_file="credentials.json",
+    token_file="token.json"
+)
 calendar_manager = CalendarManager()  # maneja draft y real
+calendar_manager.real_calendar.load_from_file(calendar_manager.real_file)
+calendar_manager.draft_calendar.load_from_file(calendar_manager.draft_file)
+
 
 app = Flask(__name__)
+
 CORS(app)
 
 app.secret_key = "secret"  # change
@@ -18,7 +27,14 @@ app.secret_key = "secret"  # change
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 CLIENT_SECRETS_FILE = "credentials.json"
 
+def normalize_datetime(dt_str):
+    try:
+        return parser.isoparse(dt_str).replace(tzinfo=None)
+    except Exception:
+        return None
+
 # -------------------- ENDPOINTS --------------------
+
 @app.route("/auth/google")
 def auth_google():
     flow = Flow.from_client_secrets_file(
@@ -71,8 +87,11 @@ def get_events():
         start = e["start"].get("dateTime") or e["start"].get("date")
         end = e["end"].get("dateTime") or e["end"].get("date")
         
+        g_start = normalize_datetime(start)
+        
         # check if already in real_calendar (by summary + start)
-        if any(ev.title == e.get("summary") and ev.start.isoformat() == start for ev in calendar_manager.real_calendar.events):
+        if any(ev.title == e.get("summary") and normalize_datetime(ev.start.isoformat()) == g_start 
+               for ev in calendar_manager.real_calendar.events):
             continue  # skip duplicates
 
         g_events.append({
@@ -83,7 +102,10 @@ def get_events():
             "draft": False,
         })
     
-
+    '''
+    return jsonify([
+        {"title": "Evento demo", "start": "2025-10-10T10:00", "end": "2025-10-10T11:00", "draft": False}
+    ])'''
     return jsonify(real + draft + g_events)
 
 
