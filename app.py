@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, session, redirect, send_from_directory
 import os, json
-from datetime import datetime
+from datetime import datetime, timedelta
 from flask_cors import CORS
 from GoogleCalendarSync import GoogleCalendarSync
 from oop_events import CalendarManager
@@ -29,9 +29,79 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 CLIENT_SECRETS_FILE = "credentials.json"
 
 # -------------------- HELPER FUNCTIONS --------------------
+def check_and_refresh_token():
+    """Check if token is expired and refresh or re-authenticate if needed"""
+    try:
+        if not os.path.exists("token.json"):
+            print("⚠️ No token.json found. Please authenticate via /auth/google")
+            return False
+        
+        with open("token.json", "r") as f:
+            token_data = json.load(f)
+        
+        # Parse expiry time
+        expiry_str = token_data.get("expiry")
+        if not expiry_str:
+            print("⚠️ No expiry found in token. Re-authenticating...")
+            return False
+        
+        # Convert expiry string to datetime
+        expiry_time = datetime.fromisoformat(expiry_str.replace('Z', '+00:00'))
+        current_time = datetime.now(expiry_time.tzinfo)
+        
+        # Check if token is expired or will expire in the next 5 minutes
+        if current_time >= expiry_time - timedelta(minutes=5):
+            print("🔄 Token expired or expiring soon. Attempting to refresh...")
+            
+            # Try to refresh using the refresh token
+            if token_data.get("refresh_token"):
+                try:
+                    from google.oauth2.credentials import Credentials
+                    from google.auth.transport.requests import Request
+                    
+                    creds = Credentials(
+                        token=token_data.get("token"),
+                        refresh_token=token_data.get("refresh_token"),
+                        token_uri=token_data.get("token_uri"),
+                        client_id=token_data.get("client_id"),
+                        client_secret=token_data.get("client_secret"),
+                        scopes=token_data.get("scopes")
+                    )
+                    
+                    # Refresh the token
+                    creds.refresh(Request())
+                    
+                    # Save the refreshed token
+                    with open("token.json", "w") as f:
+                        f.write(creds.to_json())
+                    
+                    print("✅ Token refreshed successfully!")
+                    return True
+                    
+                except Exception as e:
+                    print(f"❌ Error refreshing token: {e}")
+                    print("Please re-authenticate via /auth/google")
+                    return False
+            else:
+                print("⚠️ No refresh token available. Please re-authenticate via /auth/google")
+                return False
+        else:
+            time_until_expiry = expiry_time - current_time
+            print(f"✅ Token is valid. Expires in {time_until_expiry}")
+            return True
+            
+    except Exception as e:
+        print(f"❌ Error checking token: {e}")
+        return False
+
 def sync_google_to_file():
     """Fetch Google Calendar events and save them to calendar_export.json"""
     try:
+        # Check and refresh token if needed
+        if not check_and_refresh_token():
+            print("⚠️ Token invalid. Skipping sync. Please authenticate at /auth/google")
+            return
+        
         service = sync.build_service()
         
         # Fetch events from Google Calendar
@@ -46,15 +116,19 @@ def sync_google_to_file():
         google_events = events_result.get("items", [])
         
         # Convert to our format and save to file
+        # IMPORTANT: Keep the Google Calendar event ID for deletion/updates
         formatted_events = []
         for e in google_events:
             start = e["start"].get("dateTime") or e["start"].get("date")
             end = e["end"].get("dateTime") or e["end"].get("date")
             
             formatted_events.append({
+                "id": e.get("id"),  # Keep the actual Google Calendar event ID
                 "summary": e.get("summary", "Untitled"),
                 "start": {"dateTime": start, "timeZone": e["start"].get("timeZone", "Europe/Madrid")},
                 "end": {"dateTime": end, "timeZone": e["end"].get("timeZone", "Europe/Madrid")},
+                "description": e.get("description", ""),
+                "location": e.get("location", ""),
                 "draft": False
             })
         
@@ -111,6 +185,46 @@ def auth_google_callback():
     with open("token.json", "w") as token:
         token.write(creds.to_json())
     return "✅ Google Calendar connected"
+
+
+@app.get("/auth/status")
+def auth_status():
+    """Check authentication status and token expiry"""
+    try:
+        if not os.path.exists("token.json"):
+            return jsonify({
+                "authenticated": False,
+                "message": "No token found. Please authenticate."
+            })
+        
+        with open("token.json", "r") as f:
+            token_data = json.load(f)
+        
+        expiry_str = token_data.get("expiry")
+        if not expiry_str:
+            return jsonify({
+                "authenticated": False,
+                "message": "Invalid token. Please re-authenticate."
+            })
+        
+        expiry_time = datetime.fromisoformat(expiry_str.replace('Z', '+00:00'))
+        current_time = datetime.now(expiry_time.tzinfo)
+        
+        is_valid = current_time < expiry_time
+        time_remaining = (expiry_time - current_time).total_seconds() if is_valid else 0
+        
+        return jsonify({
+            "authenticated": is_valid,
+            "expiry": expiry_str,
+            "time_remaining_seconds": time_remaining,
+            "message": "Token valid" if is_valid else "Token expired. Please re-authenticate."
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "authenticated": False,
+            "error": str(e)
+        }), 500
 
 
 @app.route("/google/events")
@@ -281,19 +395,51 @@ def apply_ai_delta():
         if not os.path.exists("calendar_delta.json"):
             return jsonify({"error": "No delta file found"}), 400
         
+        # Load and validate the delta
+        with open("calendar_delta.json", "r", encoding="utf-8") as f:
+            delta = json.load(f)
+        
+        # Validate that delete operations have proper IDs
+        delete_ids = delta.get("delete", [])
+        if delete_ids:
+            # Check if any IDs look suspicious (contain colons, spaces, etc.)
+            suspicious_ids = [id for id in delete_ids if ":" in id or " " in id or len(id) > 100]
+            if suspicious_ids:
+                return jsonify({
+                    "error": "Invalid event IDs detected. The AI may have generated incorrect IDs.",
+                    "suspicious_ids": suspicious_ids,
+                    "message": "Please sync your calendar and try again."
+                }), 400
+        
         sync_client = GoogleCalendarSync()
         service = sync_client.build_service()
         
-        # Apply the delta
-        sync_client.apply_delta(auto_delete=False)
+        # Apply the delta with auto_delete enabled
+        sync_client.apply_delta(auto_delete=True)
         
         # Reload calendars
         calendar_manager.real_calendar.load_from_file(calendar_manager.real_file)
         
-        return jsonify({"status": "success", "message": "AI changes applied"})
+        # Re-sync from Google to ensure consistency
+        sync_google_to_file()
+        
+        return jsonify({
+            "status": "success",
+            "message": "AI changes applied successfully",
+            "changes": {
+                "added": len(delta.get("add", [])),
+                "updated": len(delta.get("update", [])),
+                "deleted": len(delta.get("delete", []))
+            }
+        })
         
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        error_msg = str(e)
+        print(f"Error applying delta: {error_msg}")
+        return jsonify({
+            "error": error_msg,
+            "message": "Failed to apply changes. Please check the backend logs."
+        }), 500
 
 
 # -------------------- RUN --------------------

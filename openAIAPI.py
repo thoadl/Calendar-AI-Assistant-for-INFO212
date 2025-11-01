@@ -29,19 +29,20 @@ class CalendarAIClient:
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         response = self.client.chat.completions.create(
-            model="gpt-5-nano",
+            model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
                     "content": (
                         "You are a calendar assistant. You read the calendar JSON and respond "
-                        "to user questions or summarize insights about upcoming events."
+                        "to user questions or summarize insights about upcoming events. "
+                        "Be concise and helpful. "
                         f"The current local date and time is {now}."
                     ),
                 },
                 {
                     "role": "user",
-                    "content": f"Here is my JSON:\n```json\n{self.json_str}\n```\n\n{user_request}",
+                    "content": f"Here is my calendar JSON:\n```json\n{self.json_str}\n```\n\n{user_request}",
                 },
             ],
         )
@@ -59,22 +60,26 @@ class CalendarAIClient:
         """
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         response = self.client.chat.completions.create(
-            model="gpt-5-nano",
+            model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
                     "content": (
                         "[no prose] You are a calendar editor. "
-                        "You must always return valid JSON matching the schema: "
-                        "{ add: [new events], update: [events with id to update], delete: [ids to remove] }. "
-                        "The IDs you are asked to remove are suggestions that will later be confirmed by the user. "
-                        "Never include explanations or text."
+                        "You must always return valid JSON matching the schema. "
+                        "CRITICAL: When deleting events, you MUST use the actual 'id' field from the calendar JSON. "
+                        "The 'id' field is the Google Calendar event ID (like 'abc123xyz'). "
+                        "DO NOT create IDs from event names or dates. "
+                        "For add: create new events with summary, start, end (no id needed). "
+                        "For update: include the existing 'id' field plus the fields to change. "
+                        "For delete: use ONLY the 'id' field values from the calendar JSON. "
+                        "Never include explanations or text. "
                         f"The current local date and time is {now}."
                     ),
                 },
                 {
                     "role": "user",
-                    "content": f"Here is my JSON:\n```json\n{self.json_str}\n```\n\n{user_request}",
+                    "content": f"Here is my calendar JSON:\n```json\n{self.json_str}\n```\n\nUser request: {user_request}\n\nIMPORTANT: For deletions, use the exact 'id' values from the JSON above.",
                 },
             ],
             response_format={
@@ -84,9 +89,52 @@ class CalendarAIClient:
                     "schema": {
                         "type": "object",
                         "properties": {
-                            "add": {"type": "array", "items": {"type": "object"}},
-                            "update": {"type": "array", "items": {"type": "object"}},
-                            "delete": {"type": "array", "items": {"type": "string"}},
+                            "add": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "summary": {"type": "string"},
+                                        "start": {
+                                            "type": "object",
+                                            "properties": {
+                                                "dateTime": {"type": "string"}
+                                            },
+                                            "required": ["dateTime"]
+                                        },
+                                        "end": {
+                                            "type": "object",
+                                            "properties": {
+                                                "dateTime": {"type": "string"}
+                                            },
+                                            "required": ["dateTime"]
+                                        },
+                                        "description": {"type": "string"},
+                                        "location": {"type": "string"}
+                                    },
+                                    "required": ["summary", "start", "end"]
+                                }
+                            },
+                            "update": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {"type": "string"},
+                                        "summary": {"type": "string"},
+                                        "start": {"type": "object"},
+                                        "end": {"type": "object"},
+                                        "description": {"type": "string"},
+                                        "location": {"type": "string"}
+                                    },
+                                    "required": ["id"]
+                                }
+                            },
+                            "delete": {
+                                "type": "array",
+                                "items": {"type": "string"},
+                                "description": "Array of event IDs to delete (use exact 'id' values from calendar JSON)"
+                            },
                         },
                         "required": ["add", "update", "delete"],
                     },
@@ -109,7 +157,7 @@ class CalendarAIClient:
 
 if __name__ == "__main__":
     ai = CalendarAIClient(
-        api_key="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",
+        api_key="your-api-key-here",
         calendar_file="calendar_export.json",
         delta_file="calendar_delta.json",
     )
@@ -119,5 +167,5 @@ if __name__ == "__main__":
 
     # Step 2: Ask it to make edits
     ai.generate_calendar_delta(
-        "Please remove all 'terst' events for next week (October 5th to 11th) and add lunch with Jeanette tomorrow at noon."
+        "Please remove all 'test' events for next week and add lunch with Jeanette tomorrow at noon."
     )
