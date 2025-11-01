@@ -7,6 +7,44 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     /* Additional styles for chat interface */
+    .auth-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .auth-modal-content {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .auth-modal-content h2 {
+      margin: 0 0 15px 0;
+      color: var(--text);
+    }
+
+    .auth-modal-content p {
+      margin: 0 0 20px 0;
+      color: var(--muted);
+    }
+
+    .auth-modal-content .btn {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+    }
+
     .chat-container {
       background: var(--card);
       padding: 12px;
@@ -135,7 +173,15 @@
         </button>
         <button class="btn ghost" onclick="syncGoogleCalendar()">🔄 Sync Calendar</button>
         <button class="btn ghost">Profile</button>
-        <button class="btn">Connect calendar</button>
+        <button class="btn" id="connectCalendarBtn" onclick="checkAuthAndConnect()">
+          <svg width="18" height="18" viewBox="0 0 18 18" style="margin-right: 8px; vertical-align: middle;">
+            <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.615z"/>
+            <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/>
+            <path fill="#FBBC05" d="M3.964 10.71c-.18-.54-.282-1.117-.282-1.71s.102-1.17.282-1.71V4.958H.957C.347 6.173 0 7.548 0 9s.348 2.827.957 4.042l3.007-2.332z"/>
+            <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"/>
+          </svg>
+  <span id="connectButtonText">Connect calendar</span>
+</button>
       </div>
     </header>
 
@@ -238,6 +284,77 @@
     // ==================== CHAT FUNCTIONALITY ====================
     let currentChatMode = 'natural'; // 'natural' or 'json'
     let lastDeltaResponse = null;
+
+    async function syncGoogleCalendar() {
+      try {
+        // Check auth status first
+        const authStatus = await checkAuthStatus();
+        if (!authStatus.authenticated) {
+          alert('⚠️ Authentication expired. Please reconnect your calendar.');
+          updateConnectButton(false);
+          return;
+        }
+
+        const response = await fetch('http://localhost:8000/sync/google', {
+          method: 'POST'
+        });
+        const data = await response.json();
+        
+        if (data.error) {
+          alert(`Error: ${data.error}`);
+        } else {
+          alert(`✅ Synced ${data.event_count} events from Google Calendar`);
+          await loadEvents();
+        }
+      } catch (error) {
+        alert(`Error syncing calendar: ${error.message}`);
+      }
+    }
+
+    async function checkAuthStatus() {
+      try {
+        const response = await fetch('http://localhost:8000/auth/status');
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Error checking auth status:', error);
+        return { authenticated: false };
+      }
+    }
+
+    async function checkAuthAndConnect() {
+      const status = await checkAuthStatus();
+      
+      if (status.authenticated) {
+        const timeRemaining = Math.floor(status.time_remaining_seconds / 60);
+        alert(`✅ Calendar already connected!\nToken expires in ${timeRemaining} minutes.`);
+      } else {
+        // Redirect to Google OAuth
+        window.location.href = 'http://localhost:8000/auth/google';
+      }
+    }
+
+    function updateConnectButton(isConnected) {
+      const btn = document.getElementById('connectCalendarBtn');
+      const text = document.getElementById('connectButtonText');
+      if (isConnected) {
+        text.textContent = '✅ Connected';
+        btn.classList.add('ghost');
+      } else {
+        text.textContent = 'Connect calendar';
+        btn.classList.remove('ghost');
+      }
+    }
+
+    // Check auth status on page load
+    async function initAuthCheck() {
+      const status = await checkAuthStatus();
+      updateConnectButton(status.authenticated);
+      
+      if (status.authenticated) {
+        console.log(`Token expires in ${Math.floor(status.time_remaining_seconds / 60)} minutes`);
+      }
+    }
 
     function setChatMode(mode) {
       currentChatMode = mode;
@@ -452,6 +569,7 @@
       loadEvents();
       updateCurrentPeriodDisplay();
       loadTheme();
+      initAuthCheck(); // Check authentication status on load
     });
 
     function navigatePeriod(direction) {

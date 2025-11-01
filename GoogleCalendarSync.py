@@ -9,6 +9,8 @@ from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
+# Allow HTTP for local development (required for OAuth)
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 class GoogleCalendarSync:
     def __init__(
@@ -60,7 +62,7 @@ class GoogleCalendarSync:
         """Insert a new event into Google Calendar."""
         service = self.build_service()
         created_event = service.events().insert(calendarId=calendar_id, body=event).execute()
-        print(f"✅ Inserted event: {created_event.get('summary')}")
+        print(f"Inserted event: {created_event.get('summary')}")
         return created_event
 
     def update_event(self, event_id: str, event: dict, calendar_id="primary") -> dict:
@@ -69,14 +71,14 @@ class GoogleCalendarSync:
         updated_event = service.events().update(
             calendarId=calendar_id, eventId=event_id, body=event
         ).execute()
-        print(f"🔄 Updated event: {updated_event.get('summary')}")
+        print(f"Updated event: {updated_event.get('summary')}")
         return updated_event
 
     def delete_event(self, event_id: str, calendar_id="primary") -> None:
         """Delete an event by ID."""
         service = self.build_service()
         service.events().delete(calendarId=calendar_id, eventId=event_id).execute()
-        print(f"🗑️ Deleted event ID: {event_id}")
+        print(f"Deleted event ID: {event_id}")
 
     # ------------------- CLEANING -------------------
     def clean_event(self, event: dict) -> dict:
@@ -115,7 +117,7 @@ class GoogleCalendarSync:
     # ------------------- APPLY DELTA JSON -------------------
     def apply_delta(self, calendar_id="primary", auto_delete=False) -> None:
         """Apply AI-generated delta JSON (add, update, delete)."""
-        print(f"▶️ Applying delta from {self.sync_file}")
+        print(f"Applying delta from {self.sync_file}")
 
         if not os.path.exists(self.sync_file):
             raise FileNotFoundError(f"{self.sync_file} not found")
@@ -123,35 +125,35 @@ class GoogleCalendarSync:
         with open(self.sync_file, "r", encoding="utf-8") as f:
             raw_delta = json.load(f)
 
-        print("📂 Raw delta loaded:", raw_delta)
+        print("Raw delta loaded:", raw_delta)
         delta = self.clean_delta_json(raw_delta)
-        print("✨ Cleaned delta:", delta)
+        print("Cleaned delta:", delta)
         
         # Handle adds
         for event in delta.get("add", []):
-            print("🧾 Final event before insert:", json.dumps(event, indent=2))
+            print("Final event before insert:", json.dumps(event, indent=2))
 
-            print("➡️ Adding:", event.get("summary"))
+            print("Adding:", event.get("summary"))
             self.insert_event(event, calendar_id)
 
         # Handle updates
         for event in delta.get("update", []):
-            print("➡️ Updating:", event.get("summary"))
+            print("Updating:", event.get("summary"))
             if "id" in event:
                 self.update_event(event["id"], event, calendar_id)
             else:
-                print("⚠️ Skipped update — missing 'id' field.")
+                print("Skipped update — missing 'id' field.")
 
         # Handle deletions
         deletions = delta.get("delete", [])
         if not deletions:
-            print("🟢 No deletions suggested.")
+            print("No deletions suggested.")
         else:
             if auto_delete:
                 for event_id in deletions:
                     print("➡️ Deleting:", event_id)
                     self.delete_event(event_id, calendar_id)
             else:
-                print("⚠️ Suggested deletions (not executed):", deletions)
+                print("Suggested deletions (not executed):", deletions)
 
-        print("✅ Delta sync complete.")
+        print("Delta sync complete.")

@@ -12,6 +12,8 @@ from googleapiclient.discovery import build
 # If modifying these scopes, delete token.json and re-run.
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
+# Allow HTTP for local development (required for OAuth)
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 class GoogleCalendarExporter:
     def __init__(

@@ -7,6 +7,9 @@ from oop_events import CalendarManager
 from openAIAPI import CalendarAIClient
 from google_auth_oauthlib.flow import Flow
 
+# Allow HTTP for local development (required for OAuth)
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
 # -------------------- CONFIG --------------------
 sync = GoogleCalendarSync(
     scopes=["https://www.googleapis.com/auth/calendar"],
@@ -184,8 +187,72 @@ def auth_google_callback():
     creds = flow.credentials
     with open("token.json", "w") as token:
         token.write(creds.to_json())
-    return "✅ Google Calendar connected"
+    
+    # Reload calendar manager now that we're authenticated
+    try:
+        calendar_manager.real_calendar.load_from_file(calendar_manager.real_file)
+        calendar_manager.draft_calendar.load_from_file(calendar_manager.draft_file)
+    except:
+        pass  # Files might not exist yet
+    
+    # Return simple success page with redirect
+    return """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Successful</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 { color: #2d3748; margin: 0 0 10px 0; }
+        p { color: #718096; margin: 0 0 25px 0; }
+        .success-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-icon">✅</div>
+        <h1>Successfully Connected!</h1>
+        <p>Your Google Calendar has been connected. Redirecting back to the app...</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            window.location.href = '/';
+        }, 2000);
+    </script>
+</body>
+</html>
+"""
 
+
+@app.route("/")
+def serve_main():
+    """Serve the main index.html file"""
+    return send_from_directory('.', 'index.html')
+
+@app.route("/styles.css")
+def serve_css():
+    """Serve the CSS file"""
+    return send_from_directory('.', 'styles.css')
 
 @app.get("/auth/status")
 def auth_status():
@@ -194,7 +261,9 @@ def auth_status():
         if not os.path.exists("token.json"):
             return jsonify({
                 "authenticated": False,
-                "message": "No token found. Please authenticate."
+                "needs_auth": True,
+                "message": "No token found. Please authenticate.",
+                "auth_url": "/auth/google"
             })
         
         with open("token.json", "r") as f:
@@ -204,7 +273,9 @@ def auth_status():
         if not expiry_str:
             return jsonify({
                 "authenticated": False,
-                "message": "Invalid token. Please re-authenticate."
+                "needs_auth": True,
+                "message": "Invalid token. Please re-authenticate.",
+                "auth_url": "/auth/google"
             })
         
         expiry_time = datetime.fromisoformat(expiry_str.replace('Z', '+00:00'))
@@ -215,15 +286,19 @@ def auth_status():
         
         return jsonify({
             "authenticated": is_valid,
+            "needs_auth": not is_valid,
             "expiry": expiry_str,
             "time_remaining_seconds": time_remaining,
-            "message": "Token valid" if is_valid else "Token expired. Please re-authenticate."
+            "message": "Token valid" if is_valid else "Token expired. Please re-authenticate.",
+            "auth_url": "/auth/google" if not is_valid else None
         })
         
     except Exception as e:
         return jsonify({
             "authenticated": False,
-            "error": str(e)
+            "needs_auth": True,
+            "error": str(e),
+            "auth_url": "/auth/google"
         }), 500
 
 

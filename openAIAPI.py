@@ -29,7 +29,7 @@ class CalendarAIClient:
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-5-mini",
             messages=[
                 {
                     "role": "system",
@@ -60,7 +60,7 @@ class CalendarAIClient:
         """
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-5-mini",
             messages=[
                 {
                     "role": "system",
@@ -157,7 +157,7 @@ class CalendarAIClient:
 
 if __name__ == "__main__":
     ai = CalendarAIClient(
-        api_key="your-api-key-here",
+        api_key="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",
         calendar_file="calendar_export.json",
         delta_file="calendar_delta.json",
     )
