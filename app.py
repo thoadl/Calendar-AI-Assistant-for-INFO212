@@ -21,7 +21,7 @@ calendar_manager.real_calendar.load_from_file(calendar_manager.real_file)
 calendar_manager.draft_calendar.load_from_file(calendar_manager.draft_file)
 
 # Initialize OpenAI client - REPLACE WITH YOUR API KEY
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ai_client = None
 
 app = Flask(__name__)

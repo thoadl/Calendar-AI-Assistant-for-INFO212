@@ -1,5 +1,6 @@
 import json
 import datetime
+import os
 from openai import OpenAI
 
 
@@ -157,7 +158,7 @@ class CalendarAIClient:
 
 if __name__ == "__main__":
     ai = CalendarAIClient(
-        api_key="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",
+        api_key=os.getenv("OPENAI_API_KEY"),
         calendar_file="calendar_export.json",
         delta_file="calendar_delta.json",
     )
