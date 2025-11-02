@@ -1,23 +1,108 @@
-# System Development
+# 📅 AI Calendar Assistant
+
+An intelligent calendar management system that syncs with Google Calendar and uses AI to help you manage your schedule through natural language conversations.
+
+**Features:**
+- 🤖 Chat with AI about your schedule
+- 📆 Two-way Google Calendar sync
+- ✏️ Add, update, or delete events using natural language
+- 📊 Day, week, and month calendar views
+- 🎨 Dark mode support
+
+---
+
+## 🚀 Setup
+
+### Prerequisites
+- Python 3.8+
+- OpenAI API key (Described in the assignment document file)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://git.app.uib.no/alicia.carretero/system-development.git
+   cd system-development
+   ```
+
+   OR
+
+   ```bash
+   git clone https://github.com/thoadl/Calendar-AI-Assistant-for-INFO212.git
+   cd Calendar-AI-Assistant-for-INFO212
+   ```
+
+2. **Create and activate virtual environment**
+   ```bash
+   python -m venv venv
+   
+   # Windows
+   venv\Scripts\activate
+   
+   # Mac/Linux
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib openai flask flask-cors
+   ```
+
+4. **Set up environment variables**
+
+Consult the assignment file
+
+
+6. **Start the application**
+   ```bash
+   # Start Flask backend
+   python app.py
+   
+   # Open index.html in your browser
+   # The app will prompt you to authenticate with Google Calendar
+   ```
+
+---
+
+## 🔑 Google Calendar Credentials
+
+Consult the assignment file
+
+## 💬 Usage Examples
+
+**Chat Mode:**
+- "What do I have tomorrow?"
+- "Am I free on Friday afternoon?"
+
+**Actions Mode:**
+- "Add lunch with Sarah tomorrow at noon"
+- "Delete all meetings on Friday"
+- "Move my 2pm meeting to 3pm"
+
+---
+
+## 📁 Project Structure
+
+```
+├── app.py                  # Flask backend
+├── index.html             # Web interface
+├── styles.css             # Styling
+├── GoogleCalendarSync.py  # Calendar sync logic
+├── oop_events.py         # Event management
+├── openAIAPI.py          # AI integration
+└── credentials.json      # Google API credentials
+```
+
+---
 
 
 
-## Getting started with the terminal app
+## 🐛 Troubleshooting
 
-To get started you need some packages from Google and OpenAI installed:
+**"OPENAI_API_KEY not set"**
+- Make sure `.env` exists with your API key
+- Restart the Flask server
 
-run this to get
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib openai
 
-Once the repo is pulled and the libraries are installed you can run the Calendar_Terminal_app.py in your IDE for a terminal based interface.
-This app will open a browser window to sign in to google and allow the app access to your calendar (Google account is necessary for this, and it might be unstable in firefox)(Files are stored only locally on your device)\
-A Google account with a sample calendar has been set up for testing the app, with these credentials:\
-sd9872163@gmail.com\
-:J1"zJ:yIw\xD4hueQtn\
-If you want to test with your own Google account, send me an e-mail at thadl2832@uib.no with your Google accounts e-mail address, and I can give you access.
-
-Once signed in you get some choices; 
-1. Ask about your calendar or get a summary: Only returns a natural language answer, is unable to make changes to your google calendar
-2. Request changes (AI will propose add/update/delete): Only returns JSON formatted data following a set schema, allows for doing changes to your calendar
-3. Exit: Exits the app
-
+**Port already in use**
+- Kill existing process or change port in `app.py`
